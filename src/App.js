@@ -1,9 +1,14 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
-    <div className="">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="h-screen bg-slate-500">
+      <Header />
+      {/* <Main /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

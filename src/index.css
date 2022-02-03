@@ -2,6 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .main_container {
+    /* Height, Alignment, Width */
+    @apply h-full min1920:mx-auto min1920:max-w-[1520px]
+    /* Margins */
+    xdesc:mx-[200px] desc:mx-[50px] lap:mx-[40px] md:mx-[32px] tab:mx-[20px] mob:mx-[16px]
+    /* Paddings */
+  min1920:px-[200px] xdesc:px-[200px]
+  desc:px-[50px] lap:px-[40px] md:px-[32px] tab:px-[20px] mob:px-[16px];
+  }
+}
+
+/* Тут я неявно (по умолчанию) задаю хедеру ширину на весь экран, для окрашивания хедера. */
+@layer components {
+  .headertop_container {
+    /* Height */
+    @apply min1920:h-[60px] xdesc:h-[50px]
+  desc:h-[40px] lap:h-[35px] md:h-[30px] tab:h-[25px] mob:h-[20px];
+  }
+}
+
+@layer components {
+  .headertopinner_container {
+    @apply /*Alignment, Width */
+    min1920:max-w-[1520px]
+    /* Margins */
+    min1920:mx-auto xdesc:mx-[200px] desc:mx-[80px] lap:mx-[40px] md:mx-[32px] tab:mx-[20px] mob:mx-[16px]
+    /* Height */
+    h-full;
+  }
+}
 
 /* body {
   margin: 0;
