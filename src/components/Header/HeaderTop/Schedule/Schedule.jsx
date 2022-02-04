@@ -1,7 +1,9 @@
+import { t } from "i18next";
 import React from "react";
+import { withTranslation } from "react-i18next";
 
 const Schedule = () => {
-  return <div>Пн-пт: 10:00 до 19:00, Сб: до 17:00</div>;
+  return <div>{t("schedule")}</div>;
 };
 
-export default Schedule;
+export default withTranslation()(Schedule);

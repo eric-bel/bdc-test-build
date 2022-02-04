@@ -1,7 +1,4 @@
 {
-    "title": "Internationalizing with i18next",
-    "description": {
-        "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-        "part2": "Switch language between english and russian using buttons above."
-    }
+    "location": "Georgia, Batumi, 26 May str., 74",
+    "schedule": "Mon-Fr: 10:00 - 19:00, Sat: 10:00 - 17:00"
 }

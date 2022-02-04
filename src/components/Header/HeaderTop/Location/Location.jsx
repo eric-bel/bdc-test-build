@@ -1,7 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
 
-const Location = () => {
-  return <div>Грузия, г. Батуми, ул. 26 Мая, 74</div>;
+const Location = ({ t }) => {
+  return (
+    <div>
+      <div>{t("location")}</div>
+    </div>
+  );
 };
 
-export default Location;
+export default withTranslation()(Location);
