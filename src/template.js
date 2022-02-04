@@ -11,3 +11,7 @@ screens: {
 */
 
 // min1920:  xdesc:  desc: lap: md: tab: mob:
+
+// react: {
+//     useSuspense: false,
+//   },

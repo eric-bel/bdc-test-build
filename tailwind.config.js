@@ -1,6 +1,9 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      inter: ["Inter", "sans-serif"],
+    },
     screens: {
       mob: { min: "100px", max: "449px" },
       //  @media (min-width: 100px and max-width: 639px)
