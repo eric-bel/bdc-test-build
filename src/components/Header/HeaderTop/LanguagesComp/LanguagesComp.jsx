@@ -34,6 +34,8 @@ const LanguagesComp = ({ i18n }) => {
     // </div>
 
     // onClick={(e) => e.preventDefault()}
+
+    // style={{ fontSize: 23, color: "#43D5CB" }}
     <Dropdown
       overlay={menu}
       trigger={["click"]}
@@ -42,8 +44,11 @@ const LanguagesComp = ({ i18n }) => {
       placement="bottomRight"
     >
       <a href="/" className="ant-dropdown-link">
-        <MdLanguage style={{ fontSize: 20, color: "lightGreen" }} />{" "}
-        <DownOutlined className="my-auto text-green-200" />
+        <MdLanguage  className="text-2xl text-[#43D5CB]
+        mob:text-[18px]
+        tab:text-sm
+        "/>{" "}
+        <DownOutlined className="my-auto text-[#43D5CB]" />
       </a>
     </Dropdown>
   );

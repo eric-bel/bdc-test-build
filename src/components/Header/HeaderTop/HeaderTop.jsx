@@ -8,14 +8,23 @@ const HeaderTop = () => {
   return (
     <div className="headertop_container bg-[#091D3E] text-white">
       <div
-        className="headertopinner_container flex justify-between
-      desc:text-[11.3px]"
+        className="headertopinner_container header_text flex justify-between
+      desc:text-[11.3px]
+      mob:flex-col
+      tab:flex-col
+      "
       >
-        <div className="flex h-full items-center gap-7">
+        <div className="flex h-full items-center gap-8
+        mob:justify-between
+        tab:justify-between
+        ">
           <Number />
           <Location />
         </div>
-        <div className="flex h-full items-center gap-7">
+        <div className="flex h-full items-center gap-7
+        mob:justify-between
+        tab:justify-between
+        ">
           <Schedule />
           <LanguagesComp />
         </div>

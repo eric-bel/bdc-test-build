@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -29,7 +29,7 @@ body {
   .headertop_container {
     /* Height */
     @apply min1920:h-[60px] xdesc:h-[50px]
-  desc:h-[40px] lap:h-[35px] md:h-[30px] tab:h-[25px] mob:h-[20px];
+  desc:h-[40px] lap:h-[35px] md:h-[30px] tab:h-[55px] mob:h-[55px];
   }
 }
 
@@ -38,9 +38,18 @@ body {
     @apply /*Alignment, Width */
     min1920:max-w-[1520px]
     /* Margins */
-    min1920:mx-auto xdesc:mx-[200px] desc:mx-[80px] lap:mx-[40px] md:mx-[32px] tab:mx-[20px] mob:mx-[16px]
+    min1920:mx-auto xdesc:mx-[120px] desc:mx-[80px] lap:mx-[40px] md:mx-[32px] tab:mx-[20px] mob:mx-[16px]
     /* Height */
     h-full;
+  }
+}
+
+/* tab: md: lap: desc: xdesc: min1920: */
+
+@layer components {
+  .header_text {
+    @apply /* font-size */
+    mob:text-[8px] tab:text-[9px] md:text-[10px] lap:text-[11px];
   }
 }
 
