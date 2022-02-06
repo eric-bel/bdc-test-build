@@ -1,20 +1,35 @@
 import i18n from "i18next";
-import Backend from "i18next-http-backend";
+// import Backend from "i18next-http-backend";
 // import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
+const resources = {
+  en: {
+    translation: {
+      "Welcome to React": "Welcome to React and react-i18next"
+    }
+  },
+  fr: {
+    translation: {
+      "Welcome to React": "Bienvenue à React et react-i18next"
+    }
+  }
+};
+
 i18n
   // Подключение бэкенда i18next
-  .use(Backend)
+  // .use(Backend)
   // Автоматическое определение языка
   //   .use(LanguageDetector)
   // модуль инициализации
   .use(initReactI18next)
   .init({
+    resources,
     react: {
       useSuspense: false,
     },
     // Стандартный язык
+    lng: "ru",
     fallbackLng: "ru",
     debug: true,
     // Распознавание и кэширование языковых кук
