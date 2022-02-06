@@ -3,6 +3,8 @@ import { withTranslation } from "react-i18next";
 import { MdLocationOn } from "react-icons/md";
 
 const Location = ({ t }) => {
+
+  // { ns: 'translation' }
   return (
     <div className="flex items-center gap-2
     
@@ -11,7 +13,7 @@ const Location = ({ t }) => {
       mob:text-[12px] 
       desc:text-[19px]
       " />
-      <div>{t("location", { ns: 'translation' })}</div>
+      <div>{t("translation.location")}</div>
     </div>
   );
 };
