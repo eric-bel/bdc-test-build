@@ -27,15 +27,6 @@ const LanguagesComp = ({ i18n }) => {
   );
 
   return (
-    // <div className="flex gap-4">
-    //   <button onClick={() => changeLanguage("en")}>EN</button>
-    //   <button onClick={() => changeLanguage("ru")}>RU</button>
-    //   <button onClick={() => changeLanguage("ge")}>ქარ</button>
-    // </div>
-
-    // onClick={(e) => e.preventDefault()}
-
-    // style={{ fontSize: 23, color: "#43D5CB" }}
     <Dropdown
       overlay={menu}
       trigger={["click"]}
@@ -45,7 +36,7 @@ const LanguagesComp = ({ i18n }) => {
     >
       <a href="/" className="ant-dropdown-link">
         <MdLanguage  className="text-2xl text-[#43D5CB]
-        mob:text-[18px]
+        mob:text-[22px]
         tab:text-sm
         "/>{" "}
         <DownOutlined className="my-auto text-[#43D5CB]" />

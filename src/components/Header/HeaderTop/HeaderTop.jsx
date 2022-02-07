@@ -6,7 +6,8 @@ import Schedule from "./Schedule/Schedule";
 
 const HeaderTop = () => {
   return (
-    <div className="headertop_container bg-[#091D3E] text-white">
+    <div className="headertop_container bg-[#091D3E] text-white
+    ">
       <div
         className="headertopinner_container header_text flex justify-between
       desc:text-[11.3px]
@@ -15,14 +16,14 @@ const HeaderTop = () => {
       "
       >
         <div className="flex h-full items-center gap-8
-        mob:justify-between
+        mob:flex-col mob:gap-1 mob:justify-between
         tab:justify-between
         ">
           <Number />
           <Location />
         </div>
         <div className="flex h-full items-center gap-7
-        mob:justify-between
+        mob:flex-col  mob:gap-1 
         tab:justify-between
         ">
           <Schedule />

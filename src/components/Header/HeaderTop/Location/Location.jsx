@@ -7,10 +7,9 @@ const Location = ({ t }) => {
   // { ns: 'translation' }
   return (
     <div className="flex items-center gap-2
-    
     ">
       <MdLocationOn className="text-[#43D5CB]
-      mob:text-[12px] 
+      mob:text-[14px] 
       desc:text-[19px]
       " />
       <div>{t("location")}</div>
