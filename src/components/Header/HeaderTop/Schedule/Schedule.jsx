@@ -13,7 +13,7 @@ const Schedule = () => {
       desc:text-[16px]
       "
       />
-      {t("translation.schedule")}
+      {t("schedule")}
     </div>
   );
 };

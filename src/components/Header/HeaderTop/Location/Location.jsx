@@ -13,7 +13,7 @@ const Location = ({ t }) => {
       mob:text-[12px] 
       desc:text-[19px]
       " />
-      <div>{t("translation.location")}</div>
+      <div>{t("location")}</div>
     </div>
   );
 };
