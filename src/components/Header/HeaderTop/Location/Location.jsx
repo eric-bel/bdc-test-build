@@ -4,7 +4,6 @@ import { MdLocationOn } from "react-icons/md";
 
 const Location = ({ t }) => {
 
-  // { ns: 'translation' }
   return (
     <div className="flex items-center gap-2
     ">
