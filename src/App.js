@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className="h-screen bg-slate-500"></div>
+      <div className="h-screen bg-slate-500">
+        <div className="h-screen main_container bg-slate-700"></div>
+      </div>
       {/* <Main /> */}
       {/* <Footer /> */}
     </>
