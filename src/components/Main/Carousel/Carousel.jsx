@@ -1,33 +1,14 @@
 import React from "react";
-import { Carousel } from "antd";
+import slide1 from "../../../assets/slide22.jpg";
 
-const contentStyle = {
-  height: "560px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-  background: "#364d79",
-};
-
-const CarouselComp = () => {
+const Carousel = () => {
+  // main_container
   return (
-    <div>
-      <Carousel autoplay>
-        <div>
-          <h3 style={contentStyle}>1</h3>
-        </div>
-        <div>
-          <h3 style={contentStyle}>2</h3>
-        </div>
-        <div>
-          <h3 style={contentStyle}>3</h3>
-        </div>
-        <div>
-          <h3 style={contentStyle}>4</h3>
-        </div>
-      </Carousel>
+    <div className="h-full min1920:mx-auto min1920:max-w-[1780px]">
+      <img className="" src={slide1} alt="slide1"></img>
+      <h1 className="">Batumi Dental Clinic</h1>
     </div>
   );
 };
 
-export default CarouselComp;
+export default Carousel;

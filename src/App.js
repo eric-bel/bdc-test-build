@@ -3,18 +3,16 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 
-
 function App() {
   return (
-    <>
+    <div className="scroll-smooth">
       <Header />
       <Main />
       <div className="h-screen bg-slate-500">
         <div className="h-screen main_container bg-slate-700"></div>
       </div>
-      
       {/* <Footer /> */}
-    </>
+    </div>
   );
 }
 
