@@ -8,7 +8,7 @@ function App() {
     <div className="scroll-smooth">
       <Header />
       <Main />
-      <div className="h-screen bg-slate-500">
+      <div className="h-screen bg-slate-500 mt-10">
         <div className="h-screen main_container bg-slate-700"></div>
       </div>
       {/* <Footer /> */}

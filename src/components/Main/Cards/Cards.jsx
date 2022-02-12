@@ -5,12 +5,15 @@ import implant from "../../../assets/implant.png";
 import care from "../../../assets/dentistry.png";
 
 const Cards = () => {
+    // mob:flex-col mob:gap-y-1 mob:items-center
+    // tab:flex-col tab:gap-y-1 tab:items-center
+    // md:flex-col md:gap-y-1 md:items-center
   return (
     <div
       className="main_container flex gap-10 justify-center
-    mob:flex-col mob:gap-y-1 mob:items-center
-    tab:flex-col tab:gap-y-1 tab:items-center
-    md:flex-col md:gap-y-1 md:items-center
+    mob:hidden
+    tab:hidden
+    md:hidden
     "
     >
       <Card
