@@ -7,6 +7,7 @@ const About = () => {
       <div
         className="font-bold text-[15px] text-gray-500 text-center
       mob:text-[10px]
+      tab:text-[12px]
       "
       >
         Забота о здоровье и благополучии вас и вашей семьи
@@ -14,13 +15,17 @@ const About = () => {
       <h2
         className="text-[#091D3E] text-[40px] font-medium text-center w-3/4
       mob:text-[16px] mob:font-bold
+      tab:text-[18px] tab:font-bold
+      md:text-[20px] md:font-bold
       "
       >
         Доктора Нашей Клиники - Это Команда Опытных Специалистов
       </h2>
       <div
         className="font-bold text-[15px] text-[#091D3E] w-4/5
-        mob:text-[10px]
+        mob:text-[10px] mob:w-full
+        tab:text-[12px] tab:w-full
+        md:text-[12px] md:w-5/6
       "
       >
         Клиника «BATUMI DENTAL CLINIC» была основана в г. Батуми (Грузия) в 2014
@@ -33,7 +38,9 @@ const About = () => {
       </div>
       <div
         className="text-[15px] font-medium text-gray-500 w-4/5
-      mob:text-[10px]
+      mob:text-[10px] mob:w-full
+      tab:text-[12px] tab:w-full
+      md:text-[12px] md:w-5/6
       "
       >
         Мы обеспечиваем пациентам высококлассное лечение и стерилизацию
