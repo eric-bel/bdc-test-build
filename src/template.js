@@ -16,4 +16,7 @@ screens: {
 //     useSuspense: false,
 //   },
 
+// text-[#091D3E]
+
+// text-sky-500
 
