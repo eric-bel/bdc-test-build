@@ -5,10 +5,13 @@ import marieta from "../../../assets/employees/marieta.jpg";
 import grigol from "../../../assets/employees/grigol.jpg";
 
 const Employees = () => {
+  // mob:flex-col mob:items-center
   // tab:flex-col tab:items-center
 
   return (
-    <div className="main_container mt-20 mb-20">
+    <div className="main_container mt-20 mb-20
+    mob:mt-7
+    ">
       <h4
         className="text-[#091D3E] text-[40px] font-semibold	
       mob:text-[16px] mob:font-bold
@@ -18,11 +21,7 @@ const Employees = () => {
       >
         Наши врачи
       </h4>
-      <div
-        className="flex justify-between
-        mob:flex-col mob:items-center
-      "
-      >
+      <div className="flex justify-between">
         <Employee
           img={fedor}
           title={"Фёдор Мазманиди"}
