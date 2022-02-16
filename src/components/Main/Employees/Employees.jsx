@@ -3,6 +3,9 @@ import Employee from "./Employee/Employee";
 import fedor from "../../../assets/employees/fedor.jpg";
 import marieta from "../../../assets/employees/marieta.jpg";
 import grigol from "../../../assets/employees/grigol.jpg";
+import lela from "../../../assets/employees/lela.jpg";
+import jeiran from "../../../assets/employees/jeiran.jpg";
+import empty from "../../../assets/employees/empty.jpg";
 
 const Employees = () => {
   // mob:flex-col mob:items-center
@@ -42,6 +45,32 @@ const Employees = () => {
           img={grigol}
           title={"Григол Баканидзе"}
           subtitle={"Врач хирург ортопед-стоматолог"}
+          content={
+            "Текст в этом месте запонялняется по желанию. Тут может быть краткая информация о враче, на 3-x языках."
+          }
+        />
+      </div>
+      <div className="flex justify-between">
+        <Employee
+          img={lela}
+          title={"Лела Тчарбадзе"}
+          subtitle={"Врач терапевт - ортопед стоматолог"}
+          content={
+            "Текст в этом месте запонялняется по желанию. Тут может быть краткая информация о враче, на 3-x языках."
+          }
+        />
+        <Employee
+          img={jeiran}
+          title={"Джеиран Джиджавадзе"}
+          subtitle={"Врач-терапевт, стоматолог"}
+          content={
+            "Текст в этом месте запонялняется по желанию. Тут может быть краткая информация о враче, на 3-x языках."
+          }
+        />
+        <Employee
+          img={empty}
+          title={"Ещё один Врач"}
+          subtitle={"Врач-ортодонт, стоматолог."}
           content={
             "Текст в этом месте запонялняется по желанию. Тут может быть краткая информация о враче, на 3-x языках."
           }

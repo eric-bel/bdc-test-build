@@ -20,7 +20,7 @@ const Employee = ({ img, title, subtitle, content }) => {
         >
           <div
             className="text-[#091D3E] text-[19px] font-semibold	
-        mob:text-[10px] mob:font-bold mob:mt-2
+        mob:text-[10px] mob:font-bold mob:mt-2 mob:leading-[10px]
         tab:text-[12px] tab:font-bold
         md:text-[14px] md:font-bold"
           >
@@ -28,7 +28,7 @@ const Employee = ({ img, title, subtitle, content }) => {
           </div>
           <div
             className="text-sky-500 
-            mob:text-[6px] 
+            mob:text-[6px] mob:mb-[6px] mob:leading-[6px]
           tab:text-[9px]
           md:text-[10px]
           "
@@ -37,7 +37,7 @@ const Employee = ({ img, title, subtitle, content }) => {
           </div>
           <div
             className="text-slate-500
-            mob:text-[6px] mob:leading-[6px]
+            mob:hidden 
           tab:text-[9px]
           md:text-[10px]
           
