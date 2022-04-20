@@ -3,12 +3,12 @@ import { HiMenuAlt3 } from "react-icons/hi";
 
 const HeaderNav = () => {
   return (
-    <div className="flex w-[72%] headerbottom_text">
+    <div className="flex w-[100%] headerbottom_text">
       <ul className="flex justify-between items-center w-full mob:hidden tab:hidden">
+        <li>Главная</li>
         <li>О нас</li>
         <li>Услуги</li>
-        <li>Врачи</li>
-        <li>Отзывы</li>
+        <li>Акции</li>
         <li>Контакты</li>
       </ul>
       <div className="hidden mob:flex tab:flex items-center w-full justify-end">
