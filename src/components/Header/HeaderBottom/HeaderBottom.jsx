@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderLogo from "./HeaderLogo/HeaderLogo";
+// import HeaderLogo from "./HeaderLogo/HeaderLogo";
 import HeaderNav from "./HeaderNav/HeaderNav";
 
 const HeaderBottom = () => {
@@ -8,7 +8,7 @@ const HeaderBottom = () => {
       className="header_bottom flex justify-between
     "
     >
-      <HeaderLogo />
+      {/* <HeaderLogo /> */}
       <HeaderNav />
     </div>
   );

@@ -4,7 +4,7 @@ import HeaderTop from "./HeaderTop/HeaderTop";
 
 const Header = () => {
   return (
-    <div>
+    <div className="sticky top-0 bg-slate-50">
       <HeaderTop />
       <HeaderBottom />
     </div>

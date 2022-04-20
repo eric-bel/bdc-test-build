@@ -9,6 +9,3 @@ React.js как основная архитектурная технология
 Вёрстка отдельных UI компнентов: Ant Design
 
 Иконки: React Icons
-
-
-test continue
