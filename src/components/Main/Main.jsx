@@ -3,6 +3,7 @@ import About from "./About/About";
 // import Cards from "./Cards/Cards";
 import Carousel from "./Carousel/Carousel";
 import Employees from "./Employees/Employees";
+import Reviews from "./Reviews/Reviews";
 import ServicesComp from "./ServicesComp/ServicesComp";
 
 const Main = () => {
@@ -13,6 +14,7 @@ const Main = () => {
       <About />
       <ServicesComp />
       <Employees />
+      <Reviews />
     </>
   );
 };
