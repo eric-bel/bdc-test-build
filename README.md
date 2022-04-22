@@ -10,4 +10,4 @@ React.js как основная архитектурная технология
 
 Иконки: React Icons
 
-test after clone 2
+test after clone 3
