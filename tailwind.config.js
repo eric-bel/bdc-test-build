@@ -17,7 +17,7 @@ module.exports = {
       //  @media (min-width: 1280px and max-width: 1535px)
       xdesc: { min: "1536px" },
       //  @media (min-width: 1536px)
-      min1920: { min: "1920px" },
+      min1920: { min: "1919px" },
     },
     extend: {},
   },
