@@ -3,8 +3,7 @@ import ReviewsCarousel from "./ReviewsCarousel/ReviewsCarousel";
 const Reviews = (props) => {
   return (
     <>
-      <div className="main_container flex justify-evenly flex-wrap">
-        <ReviewsCarousel />
+      <div className="main_container flex justify-evenly mb-20 mt-24">
         <ReviewsCarousel />
       </div>
     </>

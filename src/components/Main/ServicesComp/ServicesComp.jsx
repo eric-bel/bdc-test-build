@@ -48,10 +48,12 @@ const ServicesComp = () => {
           {/* cards start*/}
           {/* !first row */}
           <div className="flex gap-9">
-            <div className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
+            <div
+              className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
             mob:h-[205px] mob:w-[130px] mob:gap-1 
             desc:h-[470px] desc:w-[220px] desc:gap-2
-            ">
+            "
+            >
               <img
                 className="flex items-center invert w-1/4 mt-5
                 mob:w-[15px] mob:mt-2
@@ -67,10 +69,12 @@ const ServicesComp = () => {
               >
                 Лечение зубов
               </div>
-              <ul className="w-3/4 font-normal text-slate-500 list-disc
+              <ul
+                className="w-3/4 font-normal text-slate-500 list-disc
                 mob:text-[6px]
                 desc:text-[13px]
-              ">
+              "
+              >
                 <li>Пломбирование каналов</li>
                 <li>Пломбирование зубов</li>
                 <li>Чистка зубов</li>
@@ -91,10 +95,12 @@ const ServicesComp = () => {
           </div>
           {/* cards*/}
           <div className="flex gap-9">
-            <div className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
+            <div
+              className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
             desc:h-[470px] desc:w-[220px] desc:gap-2
             
-            ">
+            "
+            >
               <img
                 className="flex items-center invert w-1/4 mt-5
                 desc:w-[40px] desc:mt-3
@@ -108,10 +114,12 @@ const ServicesComp = () => {
               >
                 Имплантация зубов
               </div>
-              <ul className="w-3/4 font-normal text-slate-500 list-disc
+              <ul
+                className="w-3/4 font-normal text-slate-500 list-disc
               
               desc:text-[13px]
-              ">
+              "
+              >
                 <li>Двухэтапная имплантация зубов</li>
                 <li>Протезирование зубов</li>
                 <li>Съемные зубные протезы</li>
@@ -131,10 +139,12 @@ const ServicesComp = () => {
           </div>
           {/* cards*/}
           <div className="flex gap-9">
-            <div className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
+            <div
+              className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
             desc:h-[470px] desc:w-[220px] desc:gap-2
             
-            ">
+            "
+            >
               <img
                 className="flex items-center invert w-1/4 mt-5
                 desc:w-[40px] desc:mt-3 
@@ -150,10 +160,12 @@ const ServicesComp = () => {
               >
                 Хирургия
               </div>
-              <ul className="w-3/4 font-normal text-slate-500 list-disc
+              <ul
+                className="w-3/4 font-normal text-slate-500 list-disc
                 desc:text-[13px]
 
-              ">
+              "
+              >
                 <li>Удаление зубов</li>
                 <li>Удаление зубов мудрости</li>
                 <li>Удаление кисты зуба</li>
@@ -167,9 +179,11 @@ const ServicesComp = () => {
           {/* cards*/}
           {/* cards*/}
           <div className="flex gap-9">
-            <div className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
+            <div
+              className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
             desc:h-[470px] desc:w-[220px] desc:gap-2
-            ">
+            "
+            >
               <img
                 className="flex items-center invert w-1/4 mt-5
                 
@@ -186,10 +200,12 @@ const ServicesComp = () => {
               >
                 Исправление прикуса
               </div>
-              <ul className="w-3/4 font-normal text-slate-500 list-disc
+              <ul
+                className="w-3/4 font-normal text-slate-500 list-disc
                 desc:text-[13px]
 
-                ">
+                "
+              >
                 <li>Металлические брекеты</li>
                 <li>Керамические брекеты</li>
                 <li>Сапфировые брекеты</li>
@@ -204,9 +220,11 @@ const ServicesComp = () => {
 
           {/* cards*/}
           <div className="flex gap-9">
-            <div className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
+            <div
+              className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
             desc:h-[470px] desc:w-[220px] desc:gap-2
-            ">
+            "
+            >
               <img
                 className="flex items-center invert w-1/4 mt-5
                 desc:w-[40px] desc:mt-3
@@ -219,14 +237,15 @@ const ServicesComp = () => {
                 desc:text-[14px]
                 
                 "
-
               >
                 Детская стоматология{" "}
               </div>
-              <ul className="w-3/4 font-normal text-slate-500 list-disc
+              <ul
+                className="w-3/4 font-normal text-slate-500 list-disc
               
               desc:text-[13px]
-              ">
+              "
+              >
                 <li>Детская ортодонтия</li>
                 <li>Лечение молочных зубов</li>
                 <li>Лечение кариеса молочных зубов</li>
