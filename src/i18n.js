@@ -33,7 +33,7 @@ i18n
       cache: ["cookie"],
     },
     interpolation: {
-      escapeValue: false,
+      escapeValue: true,
     },
   });
 

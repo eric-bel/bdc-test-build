@@ -9,7 +9,7 @@ const ServicesComp = () => {
   return (
     <div
       className="bg-[#091D3E] text-white mt-20
-      mob:h-[950px]
+      mob:h-[850px]
       tab:h-[950px]
       md:h-[950px]
       lap:h-[950px]
@@ -21,8 +21,6 @@ const ServicesComp = () => {
       <div
         className="min1920:max-w-[1520px] text-white 
     min1920:mx-auto xdesc:mx-[170px] desc:mx-[120px] lap:mx-[40px] md:mx-[32px] tab:mx-[20px] mob:mx-[16px]
-    lap:flex-wrap
-    desc:flex-wrap
     h-full"
       >
         <div
@@ -44,13 +42,25 @@ const ServicesComp = () => {
         >
           Наши услуги
         </h3>
-        <div className="flex justify-between">
-          {/* cards start*/}
-          {/* !first row */}
-          <div className="flex gap-9">
+        <div
+          className="flex justify-between
+        mob:flex-wrap 
+        tab:flex-wrap
+        md:flex-wrap
+        lap:flex-wrap
+        desc:flex-wrap
+        "
+        >
+          <div
+            className="
+            mob:gap-1
+          
+          "
+          >
+            {/*card 1 */}
             <div
               className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
-            mob:h-[205px] mob:w-[130px] mob:gap-1 
+            mob:h-[205px] mob:w-[130px] mob:gap-1 mob:mt-3
             desc:h-[470px] desc:w-[220px] desc:gap-2
             "
             >
@@ -93,16 +103,18 @@ const ServicesComp = () => {
               </ul>
             </div>
           </div>
-          {/* cards*/}
+          {/* card 2*/}
           <div className="flex gap-9">
             <div
               className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
-            desc:h-[470px] desc:w-[220px] desc:gap-2
+              mob:h-[205px] mob:w-[130px] mob:gap-1 mob:mt-3
+              desc:h-[470px] desc:w-[220px] desc:gap-2
             
             "
             >
               <img
                 className="flex items-center invert w-1/4 mt-5
+                mob:w-[15px] mob:mt-2
                 desc:w-[40px] desc:mt-3
                 "
                 src={implant}
@@ -110,14 +122,15 @@ const ServicesComp = () => {
               ></img>
               <div
                 className="text-center font-semibold text-white
-          desc:text-[14px]"
+                mob:text-[8px]
+                desc:text-[14px]"
               >
                 Имплантация зубов
               </div>
               <ul
                 className="w-3/4 font-normal text-slate-500 list-disc
-              
-              desc:text-[13px]
+                mob:text-[6px]
+                desc:text-[13px]
               "
               >
                 <li>Двухэтапная имплантация зубов</li>
@@ -137,16 +150,18 @@ const ServicesComp = () => {
               </ul>
             </div>
           </div>
-          {/* cards*/}
+          {/* card 3*/}
           <div className="flex gap-9">
             <div
               className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
-            desc:h-[470px] desc:w-[220px] desc:gap-2
+              mob:h-[205px] mob:w-[130px] mob:gap-1 mob:mt-3
+              desc:h-[470px] desc:w-[220px] desc:gap-2
             
             "
             >
               <img
                 className="flex items-center invert w-1/4 mt-5
+                mob:w-[15px] mob:mt-2
                 desc:w-[40px] desc:mt-3 
                 
                 "
@@ -155,6 +170,7 @@ const ServicesComp = () => {
               ></img>
               <div
                 className="text-center font-semibold text-white
+                mob:text-[8px]
                 desc:text-[14px]
                 "
               >
@@ -162,8 +178,8 @@ const ServicesComp = () => {
               </div>
               <ul
                 className="w-3/4 font-normal text-slate-500 list-disc
+                mob:text-[6px]
                 desc:text-[13px]
-
               "
               >
                 <li>Удаление зубов</li>
@@ -176,17 +192,17 @@ const ServicesComp = () => {
               </ul>
             </div>
           </div>
-          {/* cards*/}
-          {/* cards*/}
+          {/* card 4*/}
           <div className="flex gap-9">
             <div
               className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
-            desc:h-[470px] desc:w-[220px] desc:gap-2
+              mob:h-[205px] mob:w-[130px] mob:gap-1 mob:mt-3
+              desc:h-[470px] desc:w-[220px] desc:gap-2
             "
             >
               <img
                 className="flex items-center invert w-1/4 mt-5
-                
+                mob:w-[15px] mob:mt-2
                 desc:w-[40px] desc:mt-3
                 "
                 src={correct}
@@ -194,7 +210,8 @@ const ServicesComp = () => {
               ></img>
               <div
                 className="text-center font-semibold text-white
-          desc:text-[14px]
+                mob:text-[8px]
+                desc:text-[14px]
           
           "
               >
@@ -202,8 +219,8 @@ const ServicesComp = () => {
               </div>
               <ul
                 className="w-3/4 font-normal text-slate-500 list-disc
+                mob:text-[6px]
                 desc:text-[13px]
-
                 "
               >
                 <li>Металлические брекеты</li>
@@ -216,17 +233,19 @@ const ServicesComp = () => {
               </ul>
             </div>
           </div>
-          {/* cards*/}
+          {/* card 4*/}
 
-          {/* cards*/}
+          {/* card 5*/}
           <div className="flex gap-9">
             <div
               className="flex flex-col gap-5 justify-start items-center h-[580px] w-[230px] rounded border border-slate-500 mt-20
-            desc:h-[470px] desc:w-[220px] desc:gap-2
+              mob:h-[205px] mob:w-[130px] mob:gap-1 mob:mt-3
+              desc:h-[470px] desc:w-[220px] desc:gap-2
             "
             >
               <img
                 className="flex items-center invert w-1/4 mt-5
+                mob:w-[15px] mob:mt-2
                 desc:w-[40px] desc:mt-3
                 "
                 src={child}
@@ -234,6 +253,7 @@ const ServicesComp = () => {
               ></img>
               <div
                 className="text-center font-semibold text-white
+                mob:text-[8px]
                 desc:text-[14px]
                 
                 "
@@ -242,8 +262,8 @@ const ServicesComp = () => {
               </div>
               <ul
                 className="w-3/4 font-normal text-slate-500 list-disc
-              
-              desc:text-[13px]
+                mob:text-[6px]
+                desc:text-[13px]
               "
               >
                 <li>Детская ортодонтия</li>
@@ -255,7 +275,7 @@ const ServicesComp = () => {
               </ul>
             </div>
           </div>
-          {/* cards*/}
+          {/* card 5*/}
         </div>
       </div>
     </div>
