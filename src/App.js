@@ -12,7 +12,6 @@ function App() {
       <div className="h-screen bg-slate-500">
         <div className="h-screen main_container bg-slate-700"></div>
       </div>
-      <div>new WS</div>
     </div>
   );
 }
