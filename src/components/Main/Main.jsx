@@ -9,7 +9,7 @@ import Reviews from "./Reviews/Reviews";
 
 const Main = () => {
   return (
-    <>
+    <main>
       <Carousel />
       {/* <Cards /> */}
       <About />
@@ -17,7 +17,7 @@ const Main = () => {
       {/* <ServicesComp /> */}
       <Employees />
       <Reviews />
-    </>
+    </main>
   );
 };
 

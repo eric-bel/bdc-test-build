@@ -21,6 +21,9 @@ const FooterComp = () => {
         <div>Footer Works 2</div>
         <div>Footer Works 3</div>
       </div>
+      <div className="h-[100px] bg-slate-500">
+        <div className="h-[100px] main_container bg-slate-700"></div>
+      </div>
     </div>
   );
 };
