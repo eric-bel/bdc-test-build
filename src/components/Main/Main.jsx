@@ -5,7 +5,7 @@ import Carousel from "./Carousel/Carousel";
 import Employees from "./Employees/Employees";
 import OurServices from "./OurServices/OurServices";
 import Reviews from "./Reviews/Reviews";
-import ServicesComp from "./ServicesComp/ServicesComp";
+// import ServicesComp from "./ServicesComp/ServicesComp";
 
 const Main = () => {
   return (
@@ -14,7 +14,7 @@ const Main = () => {
       {/* <Cards /> */}
       <About />
       <OurServices />
-      <ServicesComp />
+      {/* <ServicesComp /> */}
       <Employees />
       <Reviews />
     </>

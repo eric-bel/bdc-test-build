@@ -2,18 +2,20 @@ import OurServicesComp from "./OurServicesComp/OurServicesComp";
 import treat from "../../../assets/chair.png";
 import implant from "../../../assets/implant2.png";
 import surgery from "../../../assets/surgery.png";
+import correct from "../../../assets/correct.png";
+import child from "../../../assets/child.png";
 import { withTranslation } from "react-i18next";
 
-const OurServices = ({t}) => {
+const OurServices = ({ t }) => {
   return (
     //   main-container
     <div
       className="bg-[#091D3E] text-white mt-20
-      mob:h-[950px]
-      tab:h-[950px]
-      md:h-[950px]
-      lap:h-[950px]
-      desc:h-[850px]
+      mob:h-[780px]
+      tab:h-[870px]
+      md:h-[1070px]
+      lap:h-[1230px]
+      desc:h-[890px]
       xdesc:h-[950px]
       min1920:h-[950px] 
         "
@@ -27,10 +29,10 @@ const OurServices = ({t}) => {
         {/* title 1 */}
         <div
           className="font-semibold text-sky-500 pt-28 ml-[2px]
-        mob:text-[6px]
-        tab:text-[8px]
-        md:text-[10px]
-        lap:text-[12px]
+        mob:text-[7px] mob:pt-9 mob:text-center
+        tab:text-[8px] tab:pt-16
+        md:text-[10px] md:pt-16
+        lap:text-[12px] lap:pt-20
         desc:text-[14px]
         xdesc:text-[16px]"
         >
@@ -39,20 +41,22 @@ const OurServices = ({t}) => {
         {/* title 2 */}
         <h3
           className="text-white text-[40px] font-medium 
-      mob:text-[16px] mob:font-bold
-      tab:text-[18px] tab:font-bold
-      md:text-[20px] md:font-bold"
+      mob:text-[16px] mob:font-bold mob:mb-4 mob:text-center
+      tab:text-[18px] tab:font-bold tab:mb-6
+      md:text-[20px] md:font-bold md:mb-4 
+      lap:text-[35px] lap:font-bold lap:mb-4
+      "
         >
           Наши услуги
         </h3>
         {/* card-container */}
         <div
           className="flex justify-between
-        mob:flex-wrap 
-        tab:flex-wrap
-        md:flex-wrap
-        lap:flex-wrap
-        desc:flex-wrap
+        mob:flex-wrap mob:justify-evenly
+        tab:flex-wrap tab:justify-evenly
+        md:flex-wrap  md:justify-evenly
+        lap:flex-wrap lap:justify-evenly
+        desc:flex-wrap desc:justify-evenly
         "
         >
           {/* cards */}
@@ -64,12 +68,28 @@ const OurServices = ({t}) => {
           <OurServicesComp
             icon={implant}
             title={t("serviceList.implantTitle")}
-            listOfServices={t("serviceList.implantList", { returnObjects: true })}
+            listOfServices={t("serviceList.implantList", {
+              returnObjects: true,
+            })}
           />
           <OurServicesComp
             icon={surgery}
             title={t("serviceList.surgeryTitle")}
             listOfServices={t("serviceList.surgery", { returnObjects: true })}
+          />
+          <OurServicesComp
+            icon={correct}
+            title={t("serviceList.correctionTitle")}
+            listOfServices={t("serviceList.correctionList", {
+              returnObjects: true,
+            })}
+          />
+          <OurServicesComp
+            icon={child}
+            title={t("serviceList.children'sDentistryTitle")}
+            listOfServices={t("serviceList.children'sDentistryList", {
+              returnObjects: true,
+            })}
           />
         </div>
       </div>

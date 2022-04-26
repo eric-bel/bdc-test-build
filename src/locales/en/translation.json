@@ -1,6 +1,23 @@
 {
     "translation": {
         "location": "Georgia, Batumi, Pushkin str., 118-120",
-        "schedule": "Mon-Fri: 10:00 - 19:00, Sat: 10:00 - 17:00"
+        "schedule": "Mon-Fri: 10:00 - 19:00, Sat: 10:00 - 17:00",
+        "serviceList": {
+            "treatTitle": "Dental treatment",
+            "treatList": [
+                {
+                    "id": 1,
+                    "service": "Canal filling"
+                },
+                {
+                    "id": 2,
+                    "service": "Tooth filling"
+                },
+                {
+                    "id": 3,
+                    "service": "Teeth cleaning"
+                }
+            ]
+        }
     }
 }
