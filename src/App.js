@@ -10,11 +10,28 @@ function App() {
     <div className="scroll-smooth">
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/*" element={<Main to={"/"} />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="services" element={<Services />} />
+        <Route path="promotions" element={<Promotions />} />
       </Routes>
       <Footer />
     </div>
+  );
+}
+
+function Services() {
+  return (
+    <h1 className="text-center text-red-800 font-bold text-2xl h-[400px] bg-lime-500">
+      SERVICES
+    </h1>
+  );
+}
+function Promotions() {
+  return (
+    <h1 className="text-center text-red-800 font-bold text-2xl h-[400px] bg-indigo-500">
+      PROMOTIONS
+    </h1>
   );
 }
 
