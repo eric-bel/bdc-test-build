@@ -58,7 +58,7 @@ body {
     /* Margins */
     xdesc:mx-[170px] desc:mx-[120px] lap:mx-[40px] md:mx-[32px] tab:mx-[20px] mob:mx-[16px]
     /* Height */
-    mob:h-[70px] tab:h-[70px] md:h-[70px] lap:h-[80px] desc:h-[60px] xdesc:h-[70px] min1920:h-[90px];
+    mob:h-[40px] tab:h-[40px] md:h-[40px] lap:h-[40px] desc:h-[50px] xdesc:h-[60px] min1920:h-[80px];
   }
 }
 
