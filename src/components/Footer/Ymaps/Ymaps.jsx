@@ -15,7 +15,7 @@ const Ymaps = () => {
         className=""
       >
         <Map
-          className="h-[350px] pt-20"
+          className="h-[300px] pt-[1px]"
           defaultState={{
             center: [41.642706, 41.635418],
             zoom: 15,
