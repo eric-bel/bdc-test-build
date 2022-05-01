@@ -3,7 +3,11 @@ import { BsInstagram } from "react-icons/bs";
 
 const Social = (props) => {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-5
+    md:flex-row
+    tab:flex-row
+    mob:flex-row
+    ">
       <a
         target="_blank"
         rel="noreferrer"
