@@ -7,6 +7,7 @@ const FooterPhoneNumbers = () => {
       className="flex gap-1 flex-col
       md:flex-row md:gap-4
       tab:flex-row tab:gap-3
+      mob:gap-0
       "
     >
       <div className="flex gap-3

@@ -7,6 +7,7 @@ const FooterPaymentMethods = () => {
       <div className="
       md:flex md:items-center md:gap-3
       tab:flex tab:items-center tab:gap-2
+      mob:hidden
       ">
         <div className="flex gap-2">
           <FaCcMastercard className="text-[#43D5CB] text-[36px]" />
