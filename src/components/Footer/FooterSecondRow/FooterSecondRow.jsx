@@ -1,11 +1,13 @@
 import FooterAdress from "../FooterAdress/FooterAdress";
-import FooterSchedule from "../FooterSchedule/FooterSchedule";
+import FooterEmail from "../FooterEmail/FooterEmail";
 
 const FooterSecondRow = (props) => {
   return (
-    <div className="flex justify-between">
+    <div className="flex flex-col justify-start gap-1
+    
+    ">
       <FooterAdress />
-      <FooterSchedule />
+      <FooterEmail />
     </div>
   );
 };

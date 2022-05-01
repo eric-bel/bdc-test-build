@@ -1,38 +1,42 @@
 import React from "react";
-import FooterFirstRow from "./FooterFirstRow/FooterFirstRow";
 import FooterFourthRow from "./FooterFourthRow/FooterFourthRow";
+import FooterPaymentMethods from "./FooterPaymentMethods/FooterPaymentMethods";
+import FooterPhoneNumbers from "./FooterPhoneNumbers/FooterPhoneNumbers";
+import FooterSchedule from "./FooterSchedule/FooterSchedule";
 import FooterSecondRow from "./FooterSecondRow/FooterSecondRow";
-import FooterThirdRow from "./FooterThirdRow/FooterThirdRow";
+import Social from "./Social/Social";
 
 const FooterComp = () => {
   return (
     <div
       className="bg-[#091D3E] text-white
-      mob:min-h-[150px] 
-      tab:min-h-[350px] 
-      md:min-h-[500px]
-      lap:min-h-[550px]
-      desc:min-h-[550px]
-      xdesc:min-h-[650px]
-      min1920:min-h-[650px]"
+      "
     >
       <div
-        className="min1920:max-w-[1520px] text-white 
-    min1920:mx-auto xdesc:mx-[170px] desc:mx-[120px] lap:mx-[40px] md:mx-[32px] tab:mx-[20px] mob:mx-[16px]
-    h-full"
+        className="h-full"
       >
         <div className="">
           <FooterFourthRow />
-          <div className="h-4/5 py-10 px-28
+          <div
+            className="py-10 
           tab:px-0 tab:text-sm
-          mob:px-0 mob:text-[12px]
-          ">
-            <div className="h-[250px] flex flex-col justify-between
-            mob:justify-around
-            ">
-              <FooterFirstRow />
+          mob:px-0 mob:text-[12px] mob:py-5
+          "
+          >
+            <div
+              className="flex justify-between
+             min1920:mx-auto xdesc:mx-[170px] desc:mx-[120px] lap:mx-[40px] md:mx-[32px] tab:mx-[20px] mob:mx-[16px]
+             min1920:max-w-[1532px]
+             md:flex-col md:items-center md:gap-5
+             tab:flex-col tab:items-center tab:gap-3
+             mob:flex-col mob:items-center mob:gap-2
+            "
+            >
+              <Social />
+              <FooterPhoneNumbers />
               <FooterSecondRow />
-              <FooterThirdRow />
+              <FooterSchedule />
+              <FooterPaymentMethods />
             </div>
           </div>
         </div>
