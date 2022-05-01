@@ -8,12 +8,12 @@ const BurgerMenu = () => {
       <nav>
         <section className="MOBILE-MENU flex">
           <div
-            className="HAMBURGER-ICON space-y-2"
+            className="HAMBURGER-ICON space-y-2 hover:cursor-pointer"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <span className="block h-0.5 w-8 animate-pulse bg-[#091D3E]"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-[#091D3E]"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-[#091D3E]"></span>
+            <span className="block h-[2px] w-8 animate-pulse bg-[#091D3E]"></span>
+            <span className="block h-[2px] w-8 animate-pulse bg-[#091D3E]"></span>
+            <span className="block h-[2px] w-8 animate-pulse bg-[#091D3E]"></span>
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -22,7 +22,7 @@ const BurgerMenu = () => {
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                className="h-8 w-8 text-gray-600"
+                className="h-8 w-8 text-gray-600 hover:cursor-pointer"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -34,52 +34,43 @@ const BurgerMenu = () => {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="flex flex-col items-center justify-between min-h-[250px]">
+            <ul className="flex flex-col items-center justify-between min-h-[250px] text-[#091D3E]">
               <Link
-                className="border-b border-gray-400 uppercase"
+                className="border-b border-gray-400 uppercase hover:text-[#16a34a]"
                 onClick={() => setIsNavOpen(false)}
                 to="/"
               >
                 Главная
               </Link>
               <Link
-                className="border-b border-gray-400 uppercase"
+                className="border-b border-gray-400 uppercase hover:text-[#16a34a]"
                 onClick={() => setIsNavOpen(false)}
                 to="/about"
               >
                 О нас
               </Link>
               <Link
-                className="border-b border-gray-400 uppercase"
+                className="border-b border-gray-400 uppercase hover:text-[#16a34a]"
                 onClick={() => setIsNavOpen(false)}
                 to="/services"
               >
                 Услуги
               </Link>
               <Link
-                className="border-b border-gray-400 uppercase"
+                className="border-b border-gray-400 uppercase hover:text-[#16a34a]"
                 onClick={() => setIsNavOpen(false)}
                 to="/promotions"
               >
                 Акции
               </Link>
               <Link
-                className="border-b border-gray-400 uppercase"
+                className="border-b border-gray-400 uppercase hover:text-[#16a34a]"
                 onClick={() => setIsNavOpen(false)}
                 to="/contacts"
               >
                 Контакты
               </Link>
             </ul>
-
-            {/* <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">About</a>
-              </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/portfolio">Portfolio</a>
-              </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">Contact</a> */}
           </div>
         </section>
       </nav>
