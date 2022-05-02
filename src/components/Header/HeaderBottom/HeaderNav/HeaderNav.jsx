@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import BurgerMenu from "./BurgerMenu/BurgerMenu";
+import { Link } from "react-scroll";
 
 const HeaderNav = () => {
   return (
@@ -68,19 +69,9 @@ const HeaderNav = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink
-              className="hover:text-[#16a34a]"
-              style={({ isActive }) => {
-                return {
-                  display: "block",
-                  margin: "1rem 0",
-                  color: isActive ? "#16a34a" : "",
-                };
-              }}
-              to="/contacts"
-            >
+            <Link to="contact" spy={true} smooth={true} className="hover:text-[#16a34a]">
               Контакты
-            </NavLink>
+            </Link>
           </li>
         </ul>
       </nav>

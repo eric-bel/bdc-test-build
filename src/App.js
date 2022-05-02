@@ -22,14 +22,14 @@ function App() {
 
 function Services() {
   return (
-    <h1 className="text-center text-red-800 font-bold text-2xl h-[400px] bg-lime-500">
+    <h1 className="text-center text-red-800 font-bold text-2xl h-[900px] bg-lime-500">
       SERVICES
     </h1>
   );
 }
 function Promotions() {
   return (
-    <h1 className="text-center text-red-800 font-bold text-2xl h-[400px] bg-indigo-500">
+    <h1 className="text-center text-red-800 font-bold text-2xl h-[800px] bg-indigo-500">
       PROMOTIONS
     </h1>
   );

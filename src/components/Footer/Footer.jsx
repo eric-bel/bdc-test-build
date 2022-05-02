@@ -9,6 +9,7 @@ import Social from "./Social/Social";
 const FooterComp = () => {
   return (
     <div
+      id="contact"
       className="bg-[#091D3E] text-white
       "
     >
@@ -24,7 +25,7 @@ const FooterComp = () => {
           "
           >
             <div
-              className="flex justify-between
+              className="flex justify-between text-xs
              min1920:mx-auto xdesc:mx-[170px] desc:mx-[120px] lap:mx-[40px] md:mx-[32px] tab:mx-[20px] mob:mx-[16px]
              min1920:max-w-[1532px]
              md:flex-col md:items-center md:gap-5
