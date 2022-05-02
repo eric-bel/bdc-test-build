@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 const BurgerMenu = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -63,13 +64,15 @@ const BurgerMenu = () => {
               >
                 Акции
               </Link>
-              <Link
+              <ScrollLink
+                to="contact"
+                spy={true}
+                smooth={true}
                 className="border-b border-gray-400 uppercase hover:text-[#16a34a]"
                 onClick={() => setIsNavOpen(false)}
-                to="/contacts"
               >
                 Контакты
-              </Link>
+              </ScrollLink>
             </ul>
           </div>
         </section>
