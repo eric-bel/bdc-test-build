@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import { Routes, Route } from "react-router-dom";
 import AboutPage from "./components/Main/About/AboutPage/AboutPage";
+import ScrollToTop from "./components/Main/ScrollToTop";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="services" element={<Services />} />
         <Route path="promotions" element={<Promotions />} />
       </Routes>
+      <ScrollToTop />
       <Footer />
     </div>
   );
