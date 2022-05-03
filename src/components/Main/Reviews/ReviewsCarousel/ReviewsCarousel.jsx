@@ -28,22 +28,22 @@ const ReviewsCarousel = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <img src={rev1} alt="test"></img>
+            <img className="rounded" src={rev1} alt="ReviewsImg"></img>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rev2} alt="test"></img>
+            <img className="rounded-md" src={rev2} alt="ReviewsImg"></img>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rev3} alt="test"></img>
+            <img className="rounded-md" src={rev3} alt="ReviewsImg"></img>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rev4} alt="test"></img>
+            <img className="rounded-md" src={rev4} alt="ReviewsImg"></img>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rev5} alt="test"></img>
+            <img className="rounded-md" src={rev5} alt="ReviewsImg"></img>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rev6} alt="test"></img>
+            <img className="rounded-md" src={rev6} alt="ReviewsImg"></img>
           </SwiperSlide>
         </Swiper>
       </div>
@@ -58,22 +58,22 @@ const ReviewsCarousel = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <img src={rev1} alt="test"></img>
+            <img className="rounded-md" src={rev1} alt="ReviewsImg"></img>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rev2} alt="test"></img>
+            <img className="rounded-md" src={rev2} alt="ReviewsImg"></img>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rev3} alt="test"></img>
+            <img className="rounded-md" src={rev3} alt="ReviewsImg"></img>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rev4} alt="test"></img>
+            <img className="rounded-md" src={rev4} alt="ReviewsImg"></img>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rev5} alt="test"></img>
+            <img className="rounded-md" src={rev5} alt="ReviewsImg"></img>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={rev6} alt="test"></img>
+            <img className="rounded-md" src={rev6} alt="ReviewsImg"></img>
           </SwiperSlide>
         </Swiper>
       </div>
