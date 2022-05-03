@@ -1,12 +1,11 @@
-// import ReviewsCarousel from "./ReviewsCarousel/ReviewsCarousel";
+import ReviewsCarousel from "./ReviewsCarousel/ReviewsCarousel";
 
 const Reviews = (props) => {
   return (
-    <>
-      <div className="main_container flex justify-evenly mb-20 mt-24">
-        {/* <ReviewsCarousel /> */}
-      </div>
-    </>
+    <div className="main_container my-20">
+      <h3 className="text-center mb-5">Отзывы</h3>
+      <ReviewsCarousel />
+    </div>
   );
 };
 

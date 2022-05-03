@@ -15,37 +15,69 @@ import "swiper/css/pagination";
 
 const ReviewsCarousel = () => {
   return (
-    <div className="main_container mob:hidden">
-      <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={50}
-        slidesPerView={3}
-        navigation={true}
-        pagination={{ clickable: true }}
-        loop={true}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
-        <SwiperSlide>
-          <img src={rev1} alt="test"></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={rev2} alt="test"></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={rev3} alt="test"></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={rev4} alt="test"></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={rev5} alt="test"></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={rev6} alt="test"></img>
-        </SwiperSlide>
-      </Swiper>
-    </div>
+    <>
+      <div className="mob:hidden">
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={50}
+          slidesPerView={3}
+          navigation={true}
+          pagination={{ clickable: true }}
+          loop={true}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+          <SwiperSlide>
+            <img src={rev1} alt="test"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={rev2} alt="test"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={rev3} alt="test"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={rev4} alt="test"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={rev5} alt="test"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={rev6} alt="test"></img>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+      <div className="hidden mob:block">
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={50}
+          slidesPerView={2}
+          pagination={{ clickable: true }}
+          loop={true}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+          <SwiperSlide>
+            <img src={rev1} alt="test"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={rev2} alt="test"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={rev3} alt="test"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={rev4} alt="test"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={rev5} alt="test"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={rev6} alt="test"></img>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </>
   );
 };
 

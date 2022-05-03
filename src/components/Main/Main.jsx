@@ -5,7 +5,6 @@ import Carousel from "./Carousel/Carousel";
 import Employees from "./Employees/Employees";
 import OurServices from "./OurServices/OurServices";
 import Reviews from "./Reviews/Reviews";
-import ReviewsCarousel from "./Reviews/ReviewsCarousel/ReviewsCarousel";
 
 const Main = () => {
   return (
@@ -15,7 +14,6 @@ const Main = () => {
       <About />
       <OurServices />
       <Employees />
-      <ReviewsCarousel />
       <Reviews />
     </main>
   );
