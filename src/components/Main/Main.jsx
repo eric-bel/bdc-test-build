@@ -14,8 +14,8 @@ const Main = () => {
       {/* <Cards /> */}
       <About />
       <OurServices />
-      <ReviewsCarousel />
       <Employees />
+      <ReviewsCarousel />
       <Reviews />
     </main>
   );

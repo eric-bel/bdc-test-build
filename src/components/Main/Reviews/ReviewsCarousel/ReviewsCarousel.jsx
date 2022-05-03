@@ -1,43 +1,51 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-import test from "../../../../assets/employees/marieta.jpg";
-import fedor from "../../../../assets/employees/fedor.jpg";
-import lela from "../../../../assets/employees/lela.jpg";
+import rev1 from "../../../../assets/reviewsimg/1.jpeg";
+import rev2 from "../../../../assets/reviewsimg/2.jpeg";
+import rev3 from "../../../../assets/reviewsimg/3.jpeg";
+import rev4 from "../../../../assets/reviewsimg/4.jpeg";
+import rev5 from "../../../../assets/reviewsimg/5.jpeg";
+import rev6 from "../../../../assets/reviewsimg/6.jpeg";
 
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const ReviewsCarousel = () => {
   return (
-    <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
-      slidesPerView={3}
-      navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-      loop={true}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      <div className="h-32 p-20">
-        <SwiperSlide className="bg-cyan-800">Slide 1</SwiperSlide>
-        <SwiperSlide className="bg-yellow-400">Slide 2</SwiperSlide>
-        <SwiperSlide className="bg-blue-400">Slide 3</SwiperSlide>
-        <SwiperSlide className="bg-cyan-400">Slide 4</SwiperSlide>
-        <SwiperSlide className="bg-yellow-800">Slide 4</SwiperSlide>
-        <SwiperSlide className="">
-          <img src={test} alt="test"></img>
+    <div className="main_container mob:hidden">
+      <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        spaceBetween={50}
+        slidesPerView={3}
+        navigation={true}
+        pagination={{ clickable: true }}
+        loop={true}
+        onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
+        <SwiperSlide>
+          <img src={rev1} alt="test"></img>
         </SwiperSlide>
-        <SwiperSlide className="">
-          <img src={fedor} alt="test"></img>
+        <SwiperSlide>
+          <img src={rev2} alt="test"></img>
         </SwiperSlide>
-        <SwiperSlide className="">
-          <img src={lela} alt="test"></img>
+        <SwiperSlide>
+          <img src={rev3} alt="test"></img>
         </SwiperSlide>
-      </div>
-    </Swiper>
+        <SwiperSlide>
+          <img src={rev4} alt="test"></img>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={rev5} alt="test"></img>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={rev6} alt="test"></img>
+        </SwiperSlide>
+      </Swiper>
+    </div>
   );
 };
 

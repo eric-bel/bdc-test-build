@@ -29,13 +29,13 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <div className="fixed bg-pink bottom-3 right-3 cursor-pointer">
+    <div className="fixed bg-pink bottom-3 right-3 cursor-pointer z-40">
       {isVisible && (
         <div
           onClick={scrollToTop}
           className="fixed p-2 rounded-lg bottom-3 right-3 desc:bottom-5 desc:right-5 cursor-pointer"
         >
-          <BsArrowUpSquareFill className="text-[#16a34a] text-[40px] mob:text-[30px]" />
+          <BsArrowUpSquareFill className="text-cyan-800 text-[40px] mob:text-[30px] hover:text-cyan-600" />
         </div>
       )}
     </div>
