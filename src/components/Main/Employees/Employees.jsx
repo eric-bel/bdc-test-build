@@ -8,12 +8,9 @@ import jeiran from "../../../assets/employees/jeiran.jpg";
 import empty from "../../../assets/employees/empty.jpg";
 
 const Employees = () => {
-  // mob:flex-col mob:items-center
-  // tab:flex-col tab:items-center
-
   return (
     <div className="main_container mt-20 mb-20
-    mob:mt-7
+    mob:my-7
     ">
       <h4
         className="text-[#091D3E] text-[40px] font-semibold	

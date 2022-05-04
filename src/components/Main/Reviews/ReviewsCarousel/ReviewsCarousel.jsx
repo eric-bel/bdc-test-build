@@ -16,7 +16,18 @@ import "swiper/css/pagination";
 const ReviewsCarousel = () => {
   return (
     <>
-      <div className="mob:hidden">
+      <div
+        className="mob:hidden"
+      >
+        <h4
+          className="text-[#091D3E] text-[40px] font-semibold mt-20 mb-20	
+      mob:text-[16px] mob:font-bold
+      tab:text-[18px] tab:font-bold
+      md:text-[20px] md:font-bold
+      "
+        >
+          Отзывы
+        </h4>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
@@ -48,6 +59,15 @@ const ReviewsCarousel = () => {
         </Swiper>
       </div>
       <div className="hidden mob:block">
+        <h4
+          className="text-[#091D3E] text-[40px] font-semibold mb-7	
+      mob:text-[16px] mob:font-bold
+      tab:text-[18px] tab:font-bold
+      md:text-[20px] md:font-bold
+      "
+        >
+          Отзывы
+        </h4>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
