@@ -4,7 +4,8 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import { Routes, Route } from "react-router-dom";
 import AboutPage from "./components/Main/About/AboutPage/AboutPage";
-import ScrollToTop from "./components/Main/ScrollToTop";
+import ScrollToTop from "./components/Main/CustomTemplates/ScrollToTop";
+import OurServicesPage from "./components/Main/OurServices/OurServicesPage/OurServicesPage";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/*" element={<Main to={"/"} />} />
         <Route path="about" element={<AboutPage />} />
-        <Route path="services" element={<Services />} />
+        <Route path="services" element={<OurServicesPage />} />
         <Route path="promotions" element={<Promotions />} />
       </Routes>
       <ScrollToTop />
@@ -22,13 +23,6 @@ function App() {
   );
 }
 
-function Services() {
-  return (
-    <h1 className="text-center text-red-800 font-bold text-2xl h-[1900px] bg-lime-500">
-      SERVICES
-    </h1>
-  );
-}
 function Promotions() {
   return (
     <h1 className="text-center text-red-800 font-bold text-2xl h-[1800px] bg-indigo-500">
