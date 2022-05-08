@@ -1,9 +1,18 @@
 import React from "react";
-import team from "../../../assets/team.jpg";
-const About = () => {
+const About = (props) => {
   return (
     <div className="main_container flex flex-col gap-3 items-center mt-10">
-      <img className="rounded" src={team} alt="team"></img>
+      {props.hasOwnProperty("video") ? (
+        <video
+          className="rounded w-4/5"
+          src={props.video}
+          muted
+          autoPlay={true}
+          loop={true}
+        ></video>
+      ) : (
+        <img className="rounded w-4/5" src={props.img} alt="team"></img>
+      )}
       <div
         className="font-bold text-[15px] text-gray-500 text-center
       mob:text-[10px]
@@ -33,8 +42,8 @@ const About = () => {
         новейшие технологии лечения зубов и обеспечить максимальный комфорт
         нашим пациентам. На протяжении всего времени мы заслужили и приобрели
         хорошую репутацию и доверие среди наших пациентов. Все методы и
-        технологии, которые используются в «BATUMI DENTAL CLINIC»
-        соответствуют международным стандартам качества.
+        технологии, которые используются в «BATUMI DENTAL CLINIC» соответствуют
+        международным стандартам качества.
       </div>
       <div
         className="text-[15px] font-medium text-gray-500 w-4/5

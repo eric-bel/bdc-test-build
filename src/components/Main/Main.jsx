@@ -5,13 +5,15 @@ import Carousel from "./Carousel/Carousel";
 import Employees from "./Employees/Employees";
 import OurServices from "./OurServices/OurServices";
 import Reviews from "./Reviews/Reviews";
+import team from "../../assets/team.jpg";
+import mainVideo from "../../assets/video/mainVideo.mp4";
 
 const Main = () => {
   return (
     <main>
       <Carousel />
       {/* <Cards /> */}
-      <About />
+      <About img={team} video={mainVideo} />
       <OurServices />
       <Employees />
       <Reviews />

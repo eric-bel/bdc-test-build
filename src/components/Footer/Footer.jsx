@@ -10,7 +10,7 @@ const FooterComp = () => {
   return (
     <div
       id="contact"
-      className="bg-[#091D3E] text-white
+      className="bg-[#091D3E] text-white min1920:mx-auto min1920:max-w-[1780px]
       "
     >
       <div

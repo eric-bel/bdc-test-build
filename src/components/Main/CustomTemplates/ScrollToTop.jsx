@@ -35,7 +35,7 @@ export default function ScrollToTop() {
           onClick={scrollToTop}
           className="fixed p-2 rounded-lg bottom-3 right-3 desc:bottom-5 desc:right-5 cursor-pointer"
         >
-          <BsArrowUpSquareFill className="text-cyan-800 text-[40px] mob:text-[30px] hover:text-cyan-600" />
+          <BsArrowUpSquareFill className="text-sky-500 text-[40px] mob:text-[30px] hover:text-cyan-600" />
         </div>
       )}
     </div>

@@ -1,11 +1,10 @@
 import React from "react";
-import slide1 from "../../../assets/slide22.jpg";
+import mainImg from "../../../assets/pageHeaderImg/mainImg.png";
 
 const Carousel = () => {
-  // main_container
   return (
     <div className="relative h-full min1920:mx-auto min1920:max-w-[1780px]">
-      <img className="w-full" src={slide1} alt="slide1"></img>
+      <img className="w-full" src={mainImg} alt="mainImg"></img>
       <h1
         className="absolute font-semibold text-sky-500
         mob:top-[35px] mob:left-[21px] mob:text-[8px]
@@ -19,7 +18,7 @@ const Carousel = () => {
         Batumi Dental Clinic
       </h1>
       <h2
-        className="absolute font-bold text-[#091D3E] leading-[16px]
+        className="absolute font-bold text-white leading-[16px]
         mob:top-[50px] mob:left-[20px] mob:text-[15px]
         tab:top-[95px] tab:left-[23px] tab:text-[22px] tab:leading-[20px]
         md:top-[135px] md:left-[33px] md:text-[35px] md:leading-[34px]
