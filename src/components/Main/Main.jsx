@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <main>
       <Carousel />
-      <h2 className="text-center font-bold text-2xl mt-10">Альтерантива есть всегда!</h2>
+      <h2 className="text-center font-bold text-2xl mt-10">Альтернатива есть всегда!</h2>
       <About img={mainImg} />
       <OurServices />
       <Employees />

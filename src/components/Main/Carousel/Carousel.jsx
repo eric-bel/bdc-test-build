@@ -1,5 +1,5 @@
 import React from "react";
-// import mainImg from "../../../assets/pageHeaderImg/mainImg.png";
+import mainImg from "../../../assets/pageHeaderImg/mainImg.png";
 import mainVideo from "../../../assets/video/mainVideo.mp4";
 
 const Carousel = () => {
@@ -9,6 +9,7 @@ const Carousel = () => {
       <video
           className="w-full"
           src={mainVideo}
+          poster={mainImg}
           preload="auto"
           muted
           autoPlay={true}
