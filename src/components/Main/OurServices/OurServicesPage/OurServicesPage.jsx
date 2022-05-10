@@ -11,7 +11,7 @@ const OurServicesPage = () => {
         <h1 className="text-white font-bold text-2xl ">
           <OurServicesCollapse />
         </h1>
-        <img src={kinder} alt="kinder" className="rounded w-1/2 my-14 mx-auto" />
+        <img src={kinder} alt="kinder" className="rounded w-1/2 my-14 mx-auto mob:w-3/4" />
       </div>
     </>
   );

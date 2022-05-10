@@ -1,11 +1,20 @@
 import React from "react";
-import mainImg from "../../../assets/pageHeaderImg/mainImg.png";
+// import mainImg from "../../../assets/pageHeaderImg/mainImg.png";
+import mainVideo from "../../../assets/video/mainVideo.mp4";
 
 const Carousel = () => {
   return (
     <div className="relative h-full min1920:mx-auto min1920:max-w-[1780px]">
-      <img className="w-full" src={mainImg} alt="mainImg"></img>
-      <h1
+      {/* <img className="w-full" src={mainImg} alt="mainImg"></img> */}
+      <video
+          className="w-full"
+          src={mainVideo}
+          preload="auto"
+          muted
+          autoPlay={true}
+          loop={true}
+        ></video>
+      {/* <h1
         className="absolute font-semibold text-sky-500
         mob:top-[35px] mob:left-[21px] mob:text-[8px]
         tab:top-[75px] tab:left-[23px] tab:text-[12px]
@@ -40,7 +49,7 @@ const Carousel = () => {
       "
       >
         Доступная и безопасная стоматология <br></br> для взрослых и детей
-      </h2>
+      </h2> */}
     </div>
   );
 };

@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import AboutPage from "./components/Main/About/AboutPage/AboutPage";
 import ScrollToTop from "./components/Main/CustomTemplates/ScrollToTop";
 import OurServicesPage from "./components/Main/OurServices/OurServicesPage/OurServicesPage";
+import Promotions from "./components/Main/Promotions/Promotions";
 
 function App() {
   return (
@@ -20,14 +21,6 @@ function App() {
       <ScrollToTop />
       <Footer />
     </div>
-  );
-}
-
-function Promotions() {
-  return (
-    <h1 className="text-center text-red-800 font-bold text-2xl h-[1800px] bg-indigo-500">
-      PROMOTIONS
-    </h1>
   );
 }
 
