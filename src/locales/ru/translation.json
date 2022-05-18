@@ -4,70 +4,84 @@
         "shortLocation": "г. Батуми, ул. Пушкина 118-120",
         "schedule": "Пн-Пт: 10:00 до 19:00, Сб: до 17:00",
         "serviceList": {
-            "treatTitle": "Лечение зубов",
+            "treatTitle": "Терапевтическая стоматология",
+            "treatInfoForAboutComponent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "treatList": [
                 {
                     "id": 1,
-                    "service": "Пломбирование каналов"
+                    "service": "Прием (осмотр, коннсултация) врача-стоматолога терапевта первичный"
                 },
                 {
                     "id": 2,
-                    "service": "Пломбирование зубов"
+                    "service": "Лечение поверхностого кариеса"
                 },
                 {
                     "id": 3,
-                    "service": "Чистка зубов"
+                    "service": "Лечение клиновидного дефекта"
                 },
                 {
                     "id": 4,
-                    "service": "Отбеливание зубов"
+                    "service": "Лечение среднего кариеса"
                 },
                 {
                     "id": 5,
-                    "service": "Лечение кариеса"
+                    "service": "Лечение глубокого кариеса"
                 },
                 {
                     "id": 6,
-                    "service": "Лечение пульпита"
+                    "service": "Лечение пульпита 1-канального зуба"
                 },
                 {
                     "id": 7,
-                    "service": "Лечение периодонтита"
+                    "service": "Лечение пульпита 2-канального зуба"
                 },
                 {
                     "id": 8,
-                    "service": "Лечение пародонтоза"
+                    "service": "Лечение пульпита 2-канального зуба"
                 },
                 {
                     "id": 9,
-                    "service": "Лечение пародонтита"
+                    "service": "Лечение периодонтита"
                 },
                 {
                     "id": 10,
-                    "service": "Лечение гингивита"
+                    "service": "Пломбирование зуба фотокомпозитом"
                 },
                 {
                     "id": 11,
-                    "service": "Лечение десен"
+                    "service": "Обработка дополнительного канала"
                 },
                 {
                     "id": 12,
-                    "service": "Реставрация зубов"
+                    "service": "Полная реставрация 1 зуба при наличии корня сложная"
                 },
                 {
                     "id": 13,
-                    "service": "Наращивание зубов"
+                    "service": "Инструментальная и медикаментозная обработка канала (аппаратная)"
                 },
                 {
                     "id": 14,
-                    "service": "Художественная реставрация зубов"
+                    "service": "Инструментальная и медикаментозная обработка канала (ручная, первый визит)"
                 },
                 {
                     "id": 15,
-                    "service": "Лечение зубов при беременности"
+                    "service": "Пломбирование корневого канала зуба гуттаперчевыми штифтами"
+                },
+                {
+                    "id": 16,
+                    "service": "Восстановление зуба пломбировочными материалами"
+                },
+                {
+                    "id": 17,
+                    "service": "Микропротезирование (с использованием стекловолокна) передние зубы"
+                },
+                {
+                    "id": 18,
+                    "service": "Микропротезирование (с использованием стекловолокна) боковые зубы"
                 }
             ],
             "implantTitle": "Имплантация зубов",
+            "implantInfoForAboutComponent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "implantList": [
                 {
                     "id": 16,
@@ -127,6 +141,7 @@
                 }
             ],
             "surgeryTitle": "Хирургия",
+            "surgeryInfoForAboutComponent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "surgery": [
                 {
                     "id": "30",
@@ -158,6 +173,7 @@
                 }
             ],
             "correctionTitle": "Исправление прикуса",
+            "correctionInfoForAboutComponent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "correctionList": [
                 {
                     "id": "37",
@@ -189,7 +205,36 @@
                 }
             ],
             "children'sDentistryTitle": "Детская стоматология",
+            "childrenInfoForAboutComponent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "children'sDentistryList": [
+                {
+                    "id": "44",
+                    "service": "Детская ортодонтия"
+                },
+                {
+                    "id": "45",
+                    "service": "Лечение молочных зубов"
+                },
+                {
+                    "id": "46",
+                    "service": "Лечение кариеса молочных зубов"
+                },
+                {
+                    "id": "47",
+                    "service": "Детская хирургия"
+                },
+                {
+                    "id": "48",
+                    "service": "Седация в стоматологии детям"
+                },
+                {
+                    "id": "49",
+                    "service": "Лечение зубов под общей анестезией"
+                }
+            ],
+            "aestheticDentistryTitle": "Эстетическая стоматология",
+            "aestheticInfoForAboutComponent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "aestheticDentistryList": [
                 {
                     "id": "44",
                     "service": "Детская ортодонтия"

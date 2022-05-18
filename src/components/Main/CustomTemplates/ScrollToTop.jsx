@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BsArrowUpSquareFill } from "react-icons/bs";
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -35,7 +35,7 @@ export default function ScrollToTop() {
           onClick={scrollToTop}
           className="fixed p-2 rounded-lg bottom-3 right-3 desc:bottom-5 desc:right-5 cursor-pointer"
         >
-          <BsArrowUpSquareFill className="text-sky-500 text-[40px] mob:text-[30px] hover:text-cyan-600" />
+          <AiOutlineArrowUp className="text-sky-500 text-[30px] mob:text-[30px] hover:text-cyan-600" />
         </div>
       )}
     </div>

@@ -5,21 +5,18 @@ import surgery from "../../../assets/surgery.png";
 import correct from "../../../assets/correct.png";
 import child from "../../../assets/child.png";
 import { withTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 
 const OurServices = ({ t }) => {
   return (
-    //   main-container
-    <div
-      className="bg-[#091D3E] text-white mt-20
-      mob:h-[780px]
-      tab:h-[870px]
-      md:h-[1070px]
-      lap:h-[1230px]
-      desc:h-[890px]
-      xdesc:h-[950px]
-      min1920:h-[950px] 
-        "
-    >
+    //   main-container mob:h-[780px]
+    // tab:h-[870px]
+    // md:h-[1070px]
+    // lap:h-[1230px]
+    // desc:h-[890px]
+    // xdesc:h-[950px]
+    // min1920:h-[950px]
+    <div className="bg-[#091D3E] text-white mt-20 overflow-auto overflow-x-auto h-auto">
       {/* main-container-2 */}
       <div
         className="min1920:max-w-[1520px] text-white 
@@ -52,46 +49,51 @@ const OurServices = ({ t }) => {
         {/* card-container */}
         <div
           className="flex justify-between
-        mob:flex-wrap mob:justify-evenly
-        tab:flex-wrap tab:justify-evenly
-        md:flex-wrap  md:justify-evenly
-        lap:flex-wrap lap:justify-evenly
-        desc:flex-wrap desc:justify-evenly
+        mob:flex-wrap 
+        tab:flex-wrap
+        md:flex-wrap
+        lap:flex-wrap
+        desc:flex-wrap 
         "
         >
           {/* cards */}
           <OurServicesComp
             icon={treat}
             title={t("serviceList.treatTitle")}
-            listOfServices={t("serviceList.treatList", { returnObjects: true })}
+            listOfServices={t("serviceList.treatInfoForAboutComponent")}
           />
           <OurServicesComp
             icon={implant}
             title={t("serviceList.implantTitle")}
-            listOfServices={t("serviceList.implantList", {
-              returnObjects: true,
-            })}
+            listOfServices={t("serviceList.implantInfoForAboutComponent")}
           />
           <OurServicesComp
             icon={surgery}
             title={t("serviceList.surgeryTitle")}
-            listOfServices={t("serviceList.surgery", { returnObjects: true })}
+            listOfServices={t("serviceList.surgeryInfoForAboutComponent")}
           />
           <OurServicesComp
             icon={correct}
             title={t("serviceList.correctionTitle")}
-            listOfServices={t("serviceList.correctionList", {
-              returnObjects: true,
-            })}
+            listOfServices={t("serviceList.correctionInfoForAboutComponent")}
           />
           <OurServicesComp
             icon={child}
             title={t("serviceList.children'sDentistryTitle")}
-            listOfServices={t("serviceList.children'sDentistryList", {
-              returnObjects: true,
-            })}
+            listOfServices={t("serviceList.childrenInfoForAboutComponent")}
+          />
+          <OurServicesComp
+            icon={correct}
+            title={t("serviceList.aestheticDentistryTitle")}
+            listOfServices={t("serviceList.aestheticInfoForAboutComponent")}
           />
         </div>
+        <NavLink
+          className="flex justify-center items-center w-[200px] h-[50px] bg-sky-500 rounded-md p-2 my-20 mx-auto"
+          to="/services"
+        >
+          Подробнее Об Услугах
+        </NavLink>
       </div>
     </div>
   );
