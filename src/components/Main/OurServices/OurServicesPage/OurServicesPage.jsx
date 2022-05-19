@@ -1,12 +1,13 @@
 import PageHeader from "../../CustomTemplates/PageHeader/PageHeader";
-import servicesPageHeader from "../../../../assets/pageHeaderImg/ph2.jpg";
 import OurServicesCollapse from "./OurServicesCollapse/OurServicesCollapse";
 import kinder from "../../../../assets/servicesPage/kinder.jpg";
+import dentalcare from "../../../../assets/servicesPage/dentalcare.jpg";
+
 
 const OurServicesPage = () => {
   return (
     <>
-      <PageHeader img={servicesPageHeader} />
+      <PageHeader img={dentalcare} />
       <div className="main_container bg-[#091D3E] pb-14">
         <h1 className="text-white font-bold text-2xl ">
           <OurServicesCollapse />

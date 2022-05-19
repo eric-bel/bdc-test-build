@@ -7,6 +7,10 @@ import rev3 from "../../../../assets/reviewsimg/3.jpeg";
 import rev4 from "../../../../assets/reviewsimg/4.jpeg";
 import rev5 from "../../../../assets/reviewsimg/5.jpeg";
 import rev6 from "../../../../assets/reviewsimg/6.jpeg";
+import rev7 from "../../../../assets/reviewsimg/7.jpeg";
+import rev8 from "../../../../assets/reviewsimg/8.jpeg";
+import rev9 from "../../../../assets/reviewsimg/9.png";
+import rev10 from "../../../../assets/reviewsimg/10.jpeg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -19,10 +23,11 @@ const reviewsImgs = [
   { img: rev4, id: 4 },
   { img: rev5, id: 5 },
   { img: rev6, id: 6 },
+  { img: rev7, id: 7 },
+  { img: rev8, id: 8 },
+  { img: rev9, id: 9 },
+  { img: rev10, id: 10 },
 ];
-
-// onSlideChange={() => console.log("slide change")}
-// onSwiper={(swiper) => console.log(swiper)}
 
 const ReviewsCarousel = () => {
   return (
