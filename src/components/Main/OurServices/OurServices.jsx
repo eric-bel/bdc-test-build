@@ -6,6 +6,7 @@ import correct from "../../../assets/correct.png";
 import child from "../../../assets/child.png";
 import { withTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
+import NavButton from "../CustomTemplates/NavButton/NavButton";
 
 const OurServices = ({ t }) => {
   return (
@@ -88,12 +89,7 @@ const OurServices = ({ t }) => {
             listOfServices={t("serviceList.aestheticInfoForAboutComponent")}
           />
         </div>
-        <NavLink
-          className="flex justify-center items-center w-[200px] h-[50px] bg-sky-500 rounded-md p-2 my-20 mx-auto"
-          to="/services"
-        >
-          Подробнее Об Услугах
-        </NavLink>
+        <NavButton path="/services" text={"Подробнее Об Услугах"} />
       </div>
     </div>
   );

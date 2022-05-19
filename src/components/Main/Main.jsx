@@ -5,6 +5,7 @@ import Employees from "./Employees/Employees";
 import OurServices from "./OurServices/OurServices";
 import Reviews from "./Reviews/Reviews";
 import mainVideo from "../../assets/video/mainVideo.mp4";
+import NavButton from "./CustomTemplates/NavButton/NavButton";
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
         Альтернатива есть всегда!
       </h2>
       <About video={mainVideo} />
+      <NavButton path="/about" text="Подробнее О Нас" />
       <OurServices />
       <Employees />
       <Reviews />
