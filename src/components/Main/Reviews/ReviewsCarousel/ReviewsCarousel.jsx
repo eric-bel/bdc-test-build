@@ -15,6 +15,8 @@ import rev10 from "../../../../assets/reviewsimg/10.jpeg";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/effect-cube";
+import { EffectCube } from "swiper";
 
 const reviewsImgs = [
   { img: rev1, id: 1 },
@@ -55,21 +57,55 @@ const ReviewsCarousel = () => {
       </div>
       <div className="hidden mob:block">
         <Swiper
-          modules={[Navigation, Pagination, A11y]}
-          spaceBetween={50}
-          slidesPerView={1}
-          pagination={{ clickable: true }}
+          effect={"cube"}
+          grabCursor={true}
+          cubeEffect={{
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+          }}
+          pagination={true}
+          modules={[EffectCube, Pagination]}
+          className="mySwiper"
         >
-          {reviewsImgs.map((img) => (
+          {/* {reviewsImgs.map((img) => (
             <SwiperSlide key={img.id}>
               <img
-                className="rounded-md shadow-lg"
+                className="rounded-md shadow-lg m-4"
                 src={img.img}
                 alt="ReviewsImg"
                 key={img.id}
               ></img>
             </SwiperSlide>
-          ))}
+          ))} */}
+          <SwiperSlide>
+            <img src={reviewsImgs[0].img} alt="ReviewsImg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={reviewsImgs[1].img} alt="ReviewsImg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={reviewsImgs[2].img} alt="ReviewsImg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={reviewsImgs[4].img} alt="ReviewsImg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={reviewsImgs[5].img} alt="ReviewsImg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={reviewsImgs[6].img} alt="ReviewsImg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={reviewsImgs[7].img} alt="ReviewsImg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={reviewsImgs[8].img} alt="ReviewsImg" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={reviewsImgs[9].img} alt="ReviewsImg" />
+          </SwiperSlide>
         </Swiper>
       </div>
     </>
