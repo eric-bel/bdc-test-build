@@ -57,7 +57,7 @@ const ReviewsCarousel = () => {
         <Swiper
           modules={[Navigation, Pagination, A11y]}
           spaceBetween={50}
-          slidesPerView={2}
+          slidesPerView={1}
           pagination={{ clickable: true }}
         >
           {reviewsImgs.map((img) => (
