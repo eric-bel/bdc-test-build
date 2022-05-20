@@ -4,7 +4,7 @@ const About = (props) => {
     <div className="main_container flex flex-col gap-3 items-center mt-10">
       {props.hasOwnProperty("video") ? (
         <video
-          className="rounded w-4/5"
+          className="rounded w-4/5 mob:w-full"
           src={props.video}
           muted
           autoPlay={true}

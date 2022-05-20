@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 const OurServicesComp = ({ icon, title, listOfServices }) => {
   return (
     <NavLink
-      className="flex flex-col gap-5 justify-start items-center w-[170px] h-[250px] overflow-visible hover:shadow-2xl hover:bg-sky-500 rounded border border-slate-500 mt-20
-                mob:gap-1 mob:mt-3 mob:w-[90px] mob:h-[110px]
-                tab:gap-2 tab:mt-3 tab:w-[110px] tab:h-[170px]
+      className="flex flex-col gap-3 justify-start items-center w-[185px] h-[265px] overflow-visible hover:shadow-2xl hover:bg-sky-500 rounded border border-slate-500 mt-20
+                mob:gap-1 mob:mt-3 mob:w-[100px] mob:h-[120px] mob:gap-2
+                tab:gap-2 tab:mt-3 tab:w-[120px] tab:h-[190px]
                 md:gap-3 md:mt-3
                 lap:gap-4 lap:mt-3
                 desc:gap-2
