@@ -12,7 +12,7 @@ const Reviews = () => {
       >
         Отзывы
       </h4>
-      <div className="my-20 p-8 rounded tab:px-[0px] mob:px-[0px] mob:mt-6 bg-slate-200">
+      <div className="my-20 p-8 rounded tab:px-[0px] mob:px-[15px] mob:mt-6 bg-slate-200">
         <ReviewsCarousel />
       </div>
     </div>
