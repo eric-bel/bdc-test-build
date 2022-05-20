@@ -1,8 +1,8 @@
 const OurServicesCollapseList = ({ listOfServices }) => {
   return (
-    <ul className="text-center">
+    <ul className="font-medium">
       {listOfServices.map(({ id, service }) => {
-        return <li key={id}>{service} <hr></hr> </li>;
+        return <ul className="list-disc pl-4"><li key={id}>{service}</li></ul>;
       })}
     </ul>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import mainImg from "../../../assets/pageHeaderImg/mainImg.png";
+import mainImg from "../../../assets/mainImg.png";
 
 const Carousel = () => {
   return (

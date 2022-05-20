@@ -1,28 +1,17 @@
 import { withTranslation } from "react-i18next";
-import { Collapse } from "antd";
-import OurServicesCollapseList from "./OurServicesCollapseList/OurServicesCollapseList";
-import { FaTooth } from "react-icons/fa";
-
-const { Panel } = Collapse;
-
-function callback(key) {
-  console.log(key);
-}
-
-const genExtra = () => (
-  <FaTooth
-    className="text-sky-500"
-    size={16}
-    onClick={(event) => {
-      // If you don't want click extra trigger collapse, you can prevent this:
-      event.stopPropagation();
-    }}
-  />
-);
+import TherapeuticDentistry from "./TherapeuticDentistry/TherapeuticDentistry";
+import Implant from "./Implant/Implant";
+import Surgery from "./Surgery/Surgery";
+import Correction from "./Correction/Correction";
+import Children from "./Children/Children";
+import Aesthetic from "./Aesthetic/Aesthetic";
+import Orthopedic from "./Orthopedic/Orthopedic";
+import Radiography from "./Radiography/Radiography";
+import ListWrapper from "./ListWrapper/ListWrapper";
 
 const OurServicesCollapse = ({ t }) => {
   return (
-    <div className="px-20 mob:px-2 tab:px-5">
+    <div className="px-28 mob:px-2 tab:px-5 lap:px-12 md:px-12">
       <div
         className="font-semibold text-sky-500 pt-28 ml-[2px]
         mob:text-[7px] mob:pt-9 mob:text-center
@@ -44,59 +33,32 @@ const OurServicesCollapse = ({ t }) => {
       >
         Наши услуги
       </h3>
-      <Collapse onChange={callback}>
-        <Panel header={t("serviceList.treatTitle")} key="1" extra={genExtra()}>
-          <OurServicesCollapseList
-            listOfServices={t("serviceList.treatList", {
-              returnObjects: true,
-            })}
-          />
-        </Panel>
-        <Panel
-          header={t("serviceList.implantTitle")}
-          key="2"
-          extra={genExtra()}
-        >
-          <OurServicesCollapseList
-            listOfServices={t("serviceList.implantList", {
-              returnObjects: true,
-            })}
-          />
-        </Panel>
-        <Panel
-          header={t("serviceList.surgeryTitle")}
-          key="3"
-          extra={genExtra()}
-        >
-          <OurServicesCollapseList
-            listOfServices={t("serviceList.surgery", {
-              returnObjects: true,
-            })}
-          />
-        </Panel>
-        <Panel
-          header={t("serviceList.correctionTitle")}
-          key="4"
-          extra={genExtra()}
-        >
-          <OurServicesCollapseList
-            listOfServices={t("serviceList.correctionList", {
-              returnObjects: true,
-            })}
-          />
-        </Panel>
-        <Panel
-          header={t("serviceList.children'sDentistryTitle")}
-          key="5"
-          extra={genExtra()}
-        >
-          <OurServicesCollapseList
-            listOfServices={t("serviceList.children'sDentistryList", {
-              returnObjects: true,
-            })}
-          />
-        </Panel>
-      </Collapse>
+      <div className="flex justify-between flex-wrap gap-y-16 mob:flex-col mob:mt-10 mob:gap-9 tab:flex-col tab:mt-10 tab:items-center">
+        <ListWrapper>
+          <TherapeuticDentistry />
+        </ListWrapper>
+        <ListWrapper>
+          <Implant />
+        </ListWrapper>
+        <ListWrapper>
+          <Surgery />
+        </ListWrapper>
+        <ListWrapper>
+          <Correction />
+        </ListWrapper>
+        <ListWrapper>
+          <Children />
+        </ListWrapper>
+        <ListWrapper>
+          <Aesthetic />
+        </ListWrapper>
+        <ListWrapper>
+          <Orthopedic />
+        </ListWrapper>
+        <ListWrapper>
+          <Radiography />
+        </ListWrapper>
+      </div>
     </div>
   );
 };
