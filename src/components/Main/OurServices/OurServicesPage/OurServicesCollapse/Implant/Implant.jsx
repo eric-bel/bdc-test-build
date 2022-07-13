@@ -1,6 +1,11 @@
 import { withTranslation } from "react-i18next";
 import { Collapse } from "antd";
 import OurServicesCollapseList from "../OurServicesCollapseList/OurServicesCollapseList";
+import implantswiss from "../../../../../../assets/implants/implantswiss.jpeg";
+import implantmono from "../../../../../../assets/implants/implantmono.jpeg";
+import neobiotech from "../../../../../../assets/implants/neobiotech.jpeg";
+import implantmis from "../../../../../../assets/implants/implantmis.jpeg";
+import sgc from "../../../../../../assets/implants/sgc.jpeg";
 import IMPLANTSWISSMONO from "../../../../../../assets/servicesPage/IMPLANTSWISSMONO.png";
 
 const { Panel } = Collapse;
@@ -18,27 +23,27 @@ const Implant = ({ t }) => {
         </p>
         <Collapse>
           <Panel header={"IMPLANTSWISS MONO"} key="2.1">
-            <img src={IMPLANTSWISSMONO} alt="IMPLANT SWISSMONO"></img>
+            <img src={implantmono} alt="IMPLANT SWISSMONO"></img>
           </Panel>
         </Collapse>
         <Collapse>
           <Panel header={"IMPLANTSWISS"} key="2.2">
-            <img src={IMPLANTSWISSMONO} alt="IMPLANTSWISS"></img>
+            <img src={implantswiss} alt="IMPLANTSWISS"></img>
           </Panel>
         </Collapse>
         <Collapse>
           <Panel header={"IMPLANT NEOBIOTECH"} key="2.3">
-            <img src={IMPLANTSWISSMONO} alt="IMPLANT NEOBIOTECH"></img>
+            <img src={neobiotech} alt="IMPLANT NEOBIOTECH"></img>
           </Panel>
         </Collapse>
         <Collapse>
           <Panel header={"IMPLANT MIS"} key="2.4">
-            <img src={IMPLANTSWISSMONO} alt="IMPLANT MIS"></img>
+            <img src={implantmis} alt="IMPLANT MIS"></img>
           </Panel>
         </Collapse>
         <Collapse>
           <Panel header={"IMPLANT SGC"} key="2.5">
-            <img src={IMPLANTSWISSMONO} alt="IMPLANT SGC"></img>
+            <img src={sgc} alt="IMPLANT SGC"></img>
           </Panel>
         </Collapse>
         <Collapse>
