@@ -5,7 +5,7 @@
         "schedule": "Пн-Пт: 10:00 до 19:00, Сб: до 17:00",
         "serviceList": {
             "treatTitle": "Терапевтическая стоматология",
-            "treatInfoForAboutComponent": "Проконсультируйтесь с любым из наших врачей, посетив нашу клинику в любое время",
+            "treatInfoForAboutComponent": "Лечение зубов в любой сложности",
             "treatList": [
                 {
                     "id": 1,
@@ -81,7 +81,7 @@
                 }
             ],
             "implantTitle": "Имплантация зубов",
-            "implantInfoForAboutComponent": "Обратитесь к менеджеру с любым вопросом в любое время.",
+            "implantInfoForAboutComponent": "Качественная имплантация зубов  это оптимальный способ решения проблемы утраченных зубов",
             "implantServiceDescription": "Стоматологическая клиника «BATUMI DENTAL CLINIC» предоставляет доступные услуги по имплантации зубов «под ключ». Практикуем новейшие, современные методы дентальной имплантации, успешно и надежно решаюшие даже сложные задачи по восстанавлению зубов верхней и нижней челюсти с гарантией результата. Используем сертифицированные импланты Alph-Bio (Израиль):",
             "implantList": [
                 {
@@ -110,7 +110,7 @@
                 }
             ],
             "surgeryTitle": "Хирургическая стоматология",
-            "surgeryInfoForAboutComponent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "surgeryInfoForAboutComponent": "Удаление зубов",
             "surgerySubtitleSaveTeeth": "Зубосохраняющие операции",
             "surgerySubtitleSaveTeethList": [
                 {
@@ -196,8 +196,8 @@
                     "service": "Лечение перикоронарита"
                 }
             ],
-            "correctionTitle": "Ортодонтия (исправление прикуса, брекеты, капы)",
-            "correctionInfoForAboutComponent": "Lorem ipsum dolor sit amet",
+            "correctionTitle": "Ортодонтия",
+            "correctionInfoForAboutComponent": "Исправление прикуса у детей и подростков.",
             "correctionList": [
                 {
                     "id": "37",
@@ -233,7 +233,7 @@
                 }
             ],
             "children'sDentistryTitle": "Детская стоматология",
-            "childrenInfoForAboutComponent": "Предоставляем стоматологические услуги для всей семьи",
+            "childrenInfoForAboutComponent": "Бережно лечим детей. Индивидуальный подход к каждому ребёнку",
             "children'sDentistryList": [
                 {
                     "id": "45",
@@ -265,7 +265,7 @@
                 }
             ],
             "orthopedicTitle": "Ортопедическая стоматология",
-            "orthopedicInfoForAboutComponent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "orthopedicInfoForAboutComponent": "Исправление прикуса у детей и подростков.",
             "orthopedicList": [
                 {
                     "id": "51",
@@ -290,7 +290,7 @@
             "radiographyInfo3": "Кроме того, Ваш снимок будет сохранен в нашей электронной базе данных, что позволяет вернуться к нему в любой момент времени.",
             "radiographyInfo4": "В каждом кабинете стоит рециркулятор, новый обеззараживает грязный воздух и выпускает чистый.",
             "aestheticDentistryTitle": "Эстетическая стоматология",
-            "aestheticInfoForAboutComponent": "Квалифицированные врачи доступны пять дней в неделю по графику",
+            "aestheticInfoForAboutComponent": "Гигиена и отбеливание зубов",
             "aestheticDentistryList": [
                 {
                     "id": "56",
