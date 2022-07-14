@@ -1,16 +1,15 @@
 import { withTranslation } from "react-i18next";
-import PageHeader from "../../CustomTemplates/PageHeader/PageHeader";
 import About from "../About";
 import teamParty from "../../../../assets/aboutImg/teamParty.jpg";
-import aboutHeder from "../../../../assets/aboutImg/aboutHeder.jpg";
 import AboutMore from "./AboutMore/AboutMore";
+import logo from "../../../../assets/logo.png";
 
 // { t }
 
 const AboutPage = () => {
   return (
     <div className="mb-10">
-      <PageHeader img={aboutHeder} />
+      <img src={logo} alt="about us logo" className="w-1/2 mt-10"></img>
       <About img={teamParty} />
       <AboutMore />
     </div>

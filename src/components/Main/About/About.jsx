@@ -1,7 +1,7 @@
 import React from "react";
 const About = (props) => {
   return (
-    <div className="main_container flex flex-col gap-3 items-center mt-10">
+    <div className="main_container flex flex-col gap-3 items-center mt-14">
       {props.hasOwnProperty("video") ? (
         <video
           className="rounded w-4/5 mob:w-full"

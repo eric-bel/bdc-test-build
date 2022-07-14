@@ -6,7 +6,6 @@ import implantmono from "../../../../../../assets/implants/implantmono.jpeg";
 import neobiotech from "../../../../../../assets/implants/neobiotech.jpeg";
 import implantmis from "../../../../../../assets/implants/implantmis.jpeg";
 import sgc from "../../../../../../assets/implants/sgc.jpeg";
-import IMPLANTSWISSMONO from "../../../../../../assets/servicesPage/IMPLANTSWISSMONO.png";
 
 const { Panel } = Collapse;
 
