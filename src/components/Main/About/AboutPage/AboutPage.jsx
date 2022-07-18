@@ -14,7 +14,7 @@ const AboutPage = () => {
         alt="about us logo"
         className="w-3/5 mt-10 mx-auto"
       ></img>
-      <div className="italic text-[52px] mt-10 text-center">All kinds of dental services</div>
+      <div className="italic font-bold text-[#ff00ff] text-[52px] mt-10 text-center">All kinds of dental services</div>
       <About img={teamParty} />
       <AboutMore />
     </div>
