@@ -2,8 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import BurgerMenu from "./BurgerMenu/BurgerMenu";
 import { Link } from "react-scroll";
+import { withTranslation } from "react-i18next";
 
-const HeaderNav = () => {
+const HeaderNav = ({ t }) => {
   return (
     <div className="flex w-[100%] headerbottom_text">
       <nav className="flex w-full headerbottom_text">
@@ -20,7 +21,7 @@ const HeaderNav = () => {
               }}
               to="/"
             >
-              Главная
+              {t("header.services.main")}
             </NavLink>
           </li>
           <li>
@@ -35,7 +36,7 @@ const HeaderNav = () => {
               }}
               to="/about"
             >
-              О нас
+              {t("header.services.about")}
             </NavLink>
           </li>
           <li>
@@ -50,7 +51,7 @@ const HeaderNav = () => {
               }}
               to="/services"
             >
-              Услуги
+              {t("header.services.services")}
             </NavLink>
           </li>
           <li>
@@ -65,12 +66,17 @@ const HeaderNav = () => {
               }}
               to="/promotions"
             >
-              Акции
+              {t("header.services.promotions")}
             </NavLink>
           </li>
           <li>
-            <Link to="contact" spy={true} smooth={true} className="hover:text-[#16a34a]">
-              Контакты
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              className="hover:text-[#16a34a]"
+            >
+              {t("header.services.contacts")}
             </Link>
           </li>
         </ul>
@@ -80,4 +86,4 @@ const HeaderNav = () => {
   );
 };
 
-export default HeaderNav;
+export default withTranslation()(HeaderNav);

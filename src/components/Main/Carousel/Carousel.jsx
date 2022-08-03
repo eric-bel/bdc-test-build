@@ -1,7 +1,8 @@
 import React from "react";
 import mainImg from "../../../assets/mainImg.png";
+import { withTranslation } from "react-i18next";
 
-const Carousel = () => {
+const Carousel = ({ t }) => {
   return (
     <div className="relative h-full min1920:mx-auto min1920:max-w-[1780px]">
       <img className="w-full" src={mainImg} alt="mainImg"></img>
@@ -16,7 +17,7 @@ const Carousel = () => {
         xdesc:top-[140px] xdesc:left-[41%] xdesc:text-[25px]
         "
       >
-        Batumi Dental Clinic
+        {t("mainImgText.clinicName")}
       </h1>
       <h2
         className="absolute font-bold text-sky-600 leading-[16px]
@@ -28,7 +29,8 @@ const Carousel = () => {
         xdesc:top-[190px] xdesc:left-[41%] xdesc:text-[75px] xdesc:leading-[75px]
         "
       >
-        Яркая Улыбка Для <br></br> Здорового <br></br> Образа Жизни
+        {t("mainImgText.mainTitle1")} <br></br> {t("mainImgText.mainTitle2")}{" "}
+        <br></br> {t("mainImgText.mainTitle3")}
       </h2>
       <h2
         className="absolute font-bold text-[#091D3E] 
@@ -40,10 +42,10 @@ const Carousel = () => {
         xdesc:top-[440px] xdesc:left-[41%] xdesc:text-[17px]
       "
       >
-        Доступная и безопасная стоматология <br></br> для взрослых и детей
+        {t("mainImgText.subTitle1")} <br></br> {t("mainImgText.subTitle2")}
       </h2>
     </div>
   );
 };
 
-export default Carousel;
+export default withTranslation()(Carousel);

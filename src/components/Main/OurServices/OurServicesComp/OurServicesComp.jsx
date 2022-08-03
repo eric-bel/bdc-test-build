@@ -12,8 +12,6 @@ const OurServicesComp = ({ icon, title, listOfServices }) => {
             "
       to="/services"
     >
-      {/* w-[330px] h-[580px]  tab:w-[180px] md:w-[220px] lap:w-[230px] desc:w-[220px]  */}
-      {/* mob:h-[205px] tab:h-[320px] md:h-[430px] lap:h-[480px] desc:h-[485px] */}
       <img
         className="flex items-center invert w-1/4 mt-5
                 mob:w-[15px] mob:mt-2
@@ -36,7 +34,7 @@ const OurServicesComp = ({ icon, title, listOfServices }) => {
         {title}
       </div>
       <p
-        className="w-3/4 font-normal text-slate-500 list-disc pb-4 text-center
+        className="w-3/4 font-normal text-slate-500 list-disc pb-4 text-center hover:text-white
                 mob:text-[6px]
                 tab:text-[9px]
                 md:text-[12px]

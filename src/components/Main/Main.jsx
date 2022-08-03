@@ -6,16 +6,15 @@ import OurServices from "./OurServices/OurServices";
 import Reviews from "./Reviews/Reviews";
 import mainVideo from "../../assets/video/mainVideo.mp4";
 import NavButton from "./CustomTemplates/NavButton/NavButton";
+import i18next from "i18next";
 
 const Main = () => {
+  const text = i18next.t("buttonMooreAboutUs");
   return (
     <main>
       <Carousel />
-      <h2 className="text-center font-bold text-2xl mt-10">
-        Альтернатива есть всегда!
-      </h2>
       <About video={mainVideo} />
-      <NavButton path="/about" text="Подробнее О Нас" />
+      <NavButton path="/about" text={text} />
       <OurServices />
       <Employees />
       <Reviews />

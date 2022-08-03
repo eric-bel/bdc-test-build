@@ -5,18 +5,10 @@ import surgery from "../../../assets/surgery.png";
 import correct from "../../../assets/correct.png";
 import child from "../../../assets/child.png";
 import { withTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
 import NavButton from "../CustomTemplates/NavButton/NavButton";
 
 const OurServices = ({ t }) => {
   return (
-    //   main-container mob:h-[780px]
-    // tab:h-[870px]
-    // md:h-[1070px]
-    // lap:h-[1230px]
-    // desc:h-[890px]
-    // xdesc:h-[950px]
-    // min1920:h-[950px]
     <div className="bg-[#091D3E] text-white mt-20 overflow-auto overflow-x-auto h-auto">
       {/* main-container-2 */}
       <div

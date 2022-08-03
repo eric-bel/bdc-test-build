@@ -1,8 +1,10 @@
 {
     "translation": {
-        "location": "Georgia, Batumi, Pushkin str., 118-120",
-        "shortLocation": "Batumi, Pushkin str., 118-120",
-        "schedule": "Mon-Fri: 10:00 - 19:00, Sat: 10:00 - 17:00",
+        "headertop": {
+            "location": "Georgia, Batumi, Pushkin str., 118-120",
+            "shortLocation": "Batumi, Pushkin str., 118-120",
+            "schedule": "Mon-Fri: 10:00 - 19:00, Sat: 10:00 - 17:00"
+        },
         "serviceList": {
             "treatTitle": "Dental treatment",
             "treatList": [
