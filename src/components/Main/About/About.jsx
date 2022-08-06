@@ -3,6 +3,7 @@ import { withTranslation } from "react-i18next";
 import i18next from "i18next";
 
 const About = (props) => {
+
   return (
     <div className="main_container flex flex-col gap-3 items-center mt-14">
       <h2 className="text-center font-bold text-2xl mb-10">

@@ -11,7 +11,7 @@ const Location = ({ t }) => {
       desc:text-[19px]
       "
       />
-      <a href="https://yandex.com.ge/maps/-/CCUF5NhG0D">{t("shortLocation")}</a>
+      <a href="https://yandex.com.ge/maps/-/CCUF5NhG0D">{t("headertop.shortLocation")}</a>
     </div>
   );
 };

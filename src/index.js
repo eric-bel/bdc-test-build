@@ -11,3 +11,16 @@ ReactDOM.render(
     </BrowserRouter>,
   document.getElementById("root")
 );
+
+// const arr = [
+//   {
+//     id: "51",
+//     service: "Безметалловые керамические коронки",
+//   },
+//   {
+//     id: "52",
+//     service: "Металлокерамические коронки",
+//   },
+// ];
+
+// console.log(arr[0].service);

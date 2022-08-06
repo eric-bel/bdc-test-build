@@ -1,6 +1,7 @@
 import ReviewsCarousel from "./ReviewsCarousel/ReviewsCarousel";
+import { withTranslation } from "react-i18next";
 
-const Reviews = () => {
+const Reviews = ({ t }) => {
   return (
     <div className="main_container">
       <h4
@@ -10,7 +11,7 @@ const Reviews = () => {
         md:text-[20px] md:font-bold
         "
       >
-        Отзывы
+        {t("reviews")}
       </h4>
       <div className="my-20 p-8 rounded tab:px-[0px] mob:px-[15px] mob:mt-6 bg-slate-200">
         <ReviewsCarousel />
@@ -19,4 +20,4 @@ const Reviews = () => {
   );
 };
 
-export default Reviews;
+export default withTranslation()(Reviews);

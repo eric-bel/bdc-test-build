@@ -1,11 +1,11 @@
 import { withTranslation } from "react-i18next";
 import { Collapse } from "antd";
 import OurServicesCollapseList from "../OurServicesCollapseList/OurServicesCollapseList";
-import implantswiss from "../../../../../../assets/implants/implantswiss.jpeg";
-import implantmono from "../../../../../../assets/implants/implantmono.jpeg";
-import neobiotech from "../../../../../../assets/implants/neobiotech.jpeg";
-import implantmis from "../../../../../../assets/implants/implantmis.jpeg";
-import sgc from "../../../../../../assets/implants/sgc.jpeg";
+import implantswiss from "../../../../../../assets/servicesPage/implants/implantswiss.jpeg";
+import implantmono from "../../../../../../assets/servicesPage/implants/implantmono.jpeg";
+import neobiotech from "../../../../../../assets/servicesPage/implants/neobiotech.jpeg";
+import implantmis from "../../../../../../assets/servicesPage/implants/implantmis.jpeg";
+import sgc from "../../../../../../assets/servicesPage/implants/sgc.jpeg";
 
 const { Panel } = Collapse;
 
@@ -17,7 +17,7 @@ const Implant = ({ t }) => {
   return (
     <Collapse onChange={callback} className="font-bold text-sm w-full">
       <Panel header={t("serviceList.implantTitle")} key="2">
-        <p className="text-[12px] font-medium pb-2">
+        <p className="text-[13px] font-medium pb-6">
           {t("serviceList.implantServiceDescription")}
         </p>
         <Collapse>

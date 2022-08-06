@@ -8,6 +8,7 @@ import { withTranslation } from "react-i18next";
 import NavButton from "../CustomTemplates/NavButton/NavButton";
 
 const OurServices = ({ t }) => {
+  const buttonText = t("servicesBlock.buttonMooreAboutServices");
   return (
     <div className="bg-[#091D3E] text-white mt-20 overflow-auto overflow-x-auto h-auto">
       {/* main-container-2 */}
@@ -26,7 +27,7 @@ const OurServices = ({ t }) => {
         desc:text-[14px]
         xdesc:text-[16px]"
         >
-          Высококачественный уход и безопасность пациентов
+          {t("servicesBlock.littleTitle")}
         </div>
         {/* title 2 */}
         <h3
@@ -37,7 +38,7 @@ const OurServices = ({ t }) => {
       lap:text-[35px] lap:font-bold lap:mb-4
       "
         >
-          Наши услуги
+          {t("servicesBlock.mainTitle")}
         </h3>
         {/* card-container */}
         <div
@@ -81,7 +82,7 @@ const OurServices = ({ t }) => {
             listOfServices={t("serviceList.aestheticInfoForAboutComponent")}
           />
         </div>
-        <NavButton path="/services" text={"Подробнее Об Услугах"} />
+        <NavButton path="/services" text={buttonText} />
       </div>
     </div>
   );

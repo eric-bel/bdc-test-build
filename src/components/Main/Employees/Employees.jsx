@@ -6,8 +6,9 @@ import grigol from "../../../assets/employees/grigol.jpg";
 import lela from "../../../assets/employees/lela.jpg";
 import jeiran from "../../../assets/employees/jeiran.jpg";
 import empty from "../../../assets/employees/empty.jpg";
+import { withTranslation } from "react-i18next";
 
-const Employees = () => {
+const Employees = ({ t }) => {
   return (
     <div
       className="main_container mt-20 mb-20
@@ -21,56 +22,50 @@ const Employees = () => {
       md:text-[20px] md:font-bold
       "
       >
-        Наши врачи
+        {t("employees.mainTitle")}
       </h4>
       <div className="flex justify-between">
         <Employee
           img={fedor}
-          title={"Фёдор Мазманиди"}
-          subtitle={"Главврач, хирург-имплантолог"}
-          content={"Ортопед-стоматолог. Стаж работы более 30 лет"}
+          title={t("employees.employeesList.employee1.name")}
+          subtitle={t("employees.employeesList.employee1.position")}
+          content={t("employees.employeesList.employee1.info")}
         />
         <Employee
           img={marieta}
-          title={"Мариета Джанашвили"}
-          subtitle={"Врач-терапевт стоматолог. Врач детский стоматолог"}
-          content={"Является членом ассоциации стоматологов Грузии."}
+          title={t("employees.employeesList.employee2.name")}
+          subtitle={t("employees.employeesList.employee2.position")}
+          content={t("employees.employeesList.employee2.info")}
         />
         <Employee
           img={grigol}
-          title={"Григол Баканидзе"}
-          subtitle={"Врач хирург ортопед-стоматолог"}
-          content={
-            "Является членом региональной ассоциации стоматологов Грузии. Стаж работы более 25 лет."
-          }
+          title={t("employees.employeesList.employee3.name")}
+          subtitle={t("employees.employeesList.employee3.position")}
+          content={t("employees.employeesList.employee3.info")}
         />
       </div>
       <div className="flex justify-between">
         <Employee
           img={lela}
-          title={"Лела Тчарбадзе"}
-          subtitle={"Врач терапевт - ортопед стоматолог"}
-          content={
-            "Является членом региональной ассоциации стоматологов Грузии. Стаж работы более 20 лет."
-          }
+          title={t("employees.employeesList.employee4.name")}
+          subtitle={t("employees.employeesList.employee4.position")}
+          content={t("employees.employeesList.employee4.info")}
         />
         <Employee
           img={jeiran}
-          title={"Джеиран Джиджавадзе"}
-          subtitle={"Врач-терапевт, стоматолог"}
-          content={"Стаж работы более 20 лет"}
+          title={t("employees.employeesList.employee5.name")}
+          subtitle={t("employees.employeesList.employee5.position")}
+          content={t("employees.employeesList.employee5.info")}
         />
         <Employee
           img={empty}
-          title={"Ещё один Врач"}
-          subtitle={"Врач-ортодонт, стоматолог."}
-          content={
-            "Текст в этом месте запонялняется по желанию. Тут может быть краткая информация о враче, на 3-x языках."
-          }
+          title={t("employees.employeesList.employee6.name")}
+          subtitle={t("employees.employeesList.employee6.position")}
+          content={t("employees.employeesList.employee6.info")}
         />
       </div>
     </div>
   );
 };
 
-export default Employees;
+export default withTranslation()(Employees);

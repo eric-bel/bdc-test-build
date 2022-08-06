@@ -21,7 +21,7 @@ const OurServicesCollapse = ({ t }) => {
         desc:text-[14px]
         xdesc:text-[16px]"
       >
-        Высококачественный уход и безопасность пациентов
+        {t("ourServicesPage.ourServicesCollapse.subTitle")}
       </div>
       <h3
         className="text-white text-[40px] font-medium mb-20
@@ -31,7 +31,7 @@ const OurServicesCollapse = ({ t }) => {
       lap:text-[35px] lap:font-bold lap:mb-4
       "
       >
-        Наши услуги
+        {t("ourServicesPage.ourServicesCollapse.title")}
       </h3>
       <div className="flex justify-between flex-wrap gap-y-16 mob:flex-col mob:mt-10 mob:gap-9 tab:flex-col tab:mt-10 tab:items-center">
         <ListWrapper>
