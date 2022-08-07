@@ -5,22 +5,416 @@
             "shortLocation": "Batumi, Pushkin str., 118-120",
             "schedule": "Mon-Fri: 10:00 - 19:00, Sat: 10:00 - 17:00"
         },
+        "header": {
+            "services": {
+                "main": "Main",
+                "about": "About us",
+                "services": "Services",
+                "promotions": "Promotions",
+                "contacts": "Contacts"
+            }
+        },
+        "mainImgText": {
+            "clinicName": "Batumi Dental Clinic",
+            "mainTitle1": "Bright Smile For",
+            "mainTitle2": "Healthy",
+            "mainTitle3": "Lifestyle",
+            "subTitle1": "Affordable and safe dentistry",
+            "subTitle2": "for adults and children"
+        },
+        "tagline": "There is always an alternative!",
+        "aboutBlock": {
+            "littleTitle": "Caring for the health and well-being of you and your family",
+            "mainTitle": "“BATUMI DENTAL CLINIC”- the group of highly experienced and qualified doctors.",
+            "mainText1": "In 2014, ”BATUMI DENTAL CLINIC” was opened in Batumi (Georgia). The main reason of opening our clinic was a big desire to import the newest dental technology to Georgia and provide a comfortable environment for our patients. Since opening our clinic, we deserved love and trust from our patients. Every method and technology used in dental treatment of our patients conforms the international dental standards.",
+            "mainTextForComponent": "“Batumi dental clinic” provides high-quality treatment, as well as, sterilization of various medical tools. We can now offer the following services:",
+            "mainTextForPage": "“Batumi dental clinic” provides high-quality treatment, as well as, sterilization of various medical tools."
+        },
+        "buttonMooreAboutUs": "More about us",
+        "servicesBlock": {
+            "littleTitle": "High quality care and patient safety",
+            "mainTitle": "Our services",
+            "buttonMooreAboutServices": "More about services"
+        },
+        "employees": {
+            "mainTitle": "Наши врачи",
+            "employeesList": {
+                "employee1": {
+                    "name": "Фёдор Мазманиди",
+                    "position": "Главврач, хирург-имплантолог",
+                    "info": "Ортопед-стоматолог. Стаж работы более 30 лет"
+                },
+                "employee2": {
+                    "name": "Мариета Джанашвили",
+                    "position": "Врач-терапевт стоматолог. Врач детский стоматолог",
+                    "info": "Является членом ассоциации стоматологов Грузии."
+                },
+                "employee3": {
+                    "name": "Григол Баканидзе",
+                    "position": "Врач хирург ортопед-стоматолог",
+                    "info": "Является членом региональной ассоциации стоматологов Грузии. Стаж работы более 25 лет."
+                },
+                "employee4": {
+                    "name": "Лела Тчарбадзе",
+                    "position": "Врач терапевт - ортопед стоматолог",
+                    "info": "Является членом региональной ассоциации стоматологов Грузии. Стаж работы более 20 лет."
+                },
+                "employee5": {
+                    "name": "Джеиран Джиджавадзе",
+                    "position": "Врач-терапевт, стоматолог",
+                    "info": "Стаж работы более 20 лет."
+                },
+                "employee6": {
+                    "name": "Ещё один Врач",
+                    "position": "Врач-ортодонт, стоматолог.",
+                    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                }
+            }
+        },
+        "reviews": "Reviews",
+        "aboutUsPage": {
+            "tagline": "All kinds of dental services",
+            "aboutMore": {
+                "title": "The concept of “BATUMI DENTAL CLINIC”",
+                "li1": "Individual attention for every patient.",
+                "li2": "High standards of service.",
+                "li3": "Supporting patients on every stage of medical treatment.", 
+                "li4": "Confidentiality and security of our patients.",
+                "li5": "We use material from well-known, high-quality brands. Every instrument is fully and individually sterilized, according to international sterilization standards. That’s why we guarantee 100% protection from various diseases and infection.",
+                "li6": "Our clinic has a group of very experienced doctors, who are professionals in their field. Vast majority of them work in our clinic since the very first day of opening. The professionalism of our doctors is claimed by the feedback of our thankful patients on our website, as well as diplomas and certificates of our doctors.",
+                "li7": "The prices in our clinic are very acceptable. You can just compare and see that.",
+                "li8": {
+                    "title": "Much attention is paid to sterilization",
+                    "li": "Proper sterilization is really crucial, that’s why our clinic has a separate sterilization room. Our patients can be totally sure in safety of every medical tool used by our doctors."
+                },
+                "li9": {
+                    "title": "Doctors raise their qualification regularly",
+                    "li": "Our doctors are extremely professional in their fields. Furthermore, they regularly raise their qualification and awareness in various European medical centers. European colleagues change and share their experience with our doctors and help them to be aware of news in dental industry."
+                },
+                "li10": "“BATUMI DENTAL CLINIC” produces the diagnostics of every dental disease. Doctors use the newest and high-quality technology to do so."
+            }
+        },
+        "ourServicesPage": {
+            "ourServicesCollapse": {
+                "subTitle": "Высококачественный уход и безопасность пациентов",
+                "title": "Наши услуги"
+            }
+        },
         "serviceList": {
-            "treatTitle": "Dental treatment",
+            "treatTitle": "Терапевтическая стоматология",
+            "treatInfoForAboutComponent": "Лечение зубов в любой сложности",
             "treatList": [
                 {
                     "id": 1,
-                    "service": "Canal filling"
+                    "service": "Прием (осмотр, коннсултация) врача-стоматолога терапевта первичный"
                 },
                 {
                     "id": 2,
-                    "service": "Tooth filling"
+                    "service": "Лечение поверхностого кариеса"
                 },
                 {
                     "id": 3,
-                    "service": "Teeth cleaning"
+                    "service": "Лечение клиновидного дефекта"
+                },
+                {
+                    "id": 4,
+                    "service": "Лечение среднего кариеса"
+                },
+                {
+                    "id": 5,
+                    "service": "Лечение глубокого кариеса"
+                },
+                {
+                    "id": 6,
+                    "service": "Лечение пульпита 1-канального зуба"
+                },
+                {
+                    "id": 7,
+                    "service": "Лечение пульпита 2-канального зуба"
+                },
+                {
+                    "id": 8,
+                    "service": "Лечение пульпита 3-канального зуба"
+                },
+                {
+                    "id": 9,
+                    "service": "Лечение периодонтита"
+                },
+                {
+                    "id": 10,
+                    "service": "Пломбирование зуба фотокомпозитом"
+                },
+                {
+                    "id": 11,
+                    "service": "Обработка дополнительного канала"
+                },
+                {
+                    "id": 12,
+                    "service": "Полная реставрация 1 зуба при наличии корня сложная"
+                },
+                {
+                    "id": 13,
+                    "service": "Инструментальная и медикаментозная обработка канала (аппаратная)"
+                },
+                {
+                    "id": 14,
+                    "service": "Инструментальная и медикаментозная обработка канала (ручная, первый визит)"
+                },
+                {
+                    "id": 15,
+                    "service": "Пломбирование корневого канала зуба гуттаперчевыми штифтами"
+                },
+                {
+                    "id": 16,
+                    "service": "Восстановление зуба пломбировочными материалами"
+                },
+                {
+                    "id": 17,
+                    "service": "Микропротезирование (с использованием стекловолокна) передние зубы"
+                },
+                {
+                    "id": 18,
+                    "service": "Микропротезирование (с использованием стекловолокна) боковые зубы"
+                }
+            ],
+            "implantTitle": "Имплантация зубов",
+            "implantInfoForAboutComponent": "Качественная имплантация зубов  это оптимальный способ решения проблемы утраченных зубов",
+            "implantServiceDescription": "Стоматологическая клиника «BATUMI DENTAL CLINIC» предоставляет доступные услуги по имплантации зубов «под ключ». Практикуем новейшие, современные методы дентальной имплантации, успешно и надежно решаюшие даже сложные задачи по восстанавлению зубов верхней и нижней челюсти с гарантией результата. Используем сертифицированные импланты Alph-Bio (Израиль):",
+            "implantList": [
+                {
+                    "id": 21,
+                    "service": ""
+                }
+            ],
+            "implantBoneGraftingTitle": "Костная пластика",
+            "implantBoneGraftingDescription": "В стоматологии «BATUMI DENTAL CLINIC» выполняются все виды костно-пластических операций перед протезованием или имплантацией зубов:",
+            "implantBoneGraftingList": [
+                {
+                    "id": 22,
+                    "service": "Удаление экзостоза;"
+                },
+                {
+                    "id": 23,
+                    "service": "Синус-лифтинг (открытый/закрытый);"
+                },
+                {
+                    "id": 24,
+                    "service": "Забор костного блока;"
+                },
+                {
+                    "id": 25,
+                    "service": "Расщепление альвеолярного гребня;"
+                }
+            ],
+            "surgeryTitle": "Хирургическая стоматология",
+            "surgeryInfoForAboutComponent": "Удаление зубов",
+            "surgerySubtitleSaveTeeth": "Зубосохраняющие операции",
+            "surgerySubtitleSaveTeethList": [
+                {
+                    "id": "30",
+                    "service": "Резекция верхушки корня"
+                },
+                {
+                    "id": "30",
+                    "service": "Гемисекция"
+                },
+                {
+                    "id": "30",
+                    "service": "Ретроградное пломбирование корня"
+                },
+                {
+                    "id": "30",
+                    "service": "Операции при заболеваниях пародонта"
+                },
+                {
+                    "id": "30",
+                    "service": "Цистэктомия"
+                }
+            ],
+            "surgery": [
+                {
+                    "id": "30",
+                    "service": "Удаление зубов"
+                },
+                {
+                    "id": "31",
+                    "service": "Удаление зуба мудрости простое"
+                },
+                {
+                    "id": "32",
+                    "service": "Удаление зуба сложное, с разьединением корней"
+                },
+                {
+                    "id": "33",
+                    "service": "Удаление ретинированного, дистопированного или сврехкомплектного зуба"
+                },
+                {
+                    "id": "34",
+                    "service": "Вестибулопластика"
+                },
+                {
+                    "id": "35",
+                    "service": "Операции на уздечке"
+                },
+                {
+                    "id": "36",
+                    "service": "Удаление постоянного зуба (с 3 степенью подвижности)"
+                },
+                {
+                    "id": "36",
+                    "service": "Удаление постоянного зуба - удаление зуба с 1-2 степенью подвижности без фрагментирования и «консервации» лунки"
+                },
+                {
+                    "id": "36",
+                    "service": "Удаление сложное - удаление постоянного зуба с секционированием на фрагменты и использованием коллагенового материала для консервации лунки для последующей имплантации"
+                },
+                {
+                    "id": "36",
+                    "service": "Удаление постоянного зуба импактного, удаление сверхкомлпектого зуба"
+                },
+                {
+                    "id": "36",
+                    "service": "Операция удаления ретинированного, дистопированного зуба - удаление зуба, частично или полностью не прорезавщегося в зубной ряд"
+                },
+                {
+                    "id": "36",
+                    "service": "Наложение или снятие швов на слизистую оболочки полости рта"
+                },
+                {
+                    "id": "36",
+                    "service": "Коррекция формы и объема альвеолярного отростка (в области одного зуба)"
+                },
+                {
+                    "id": "36",
+                    "service": "Пластика альвеолярного отростка (латеральная аугументация в области одного зуба, имплантата)"
+                },
+                {
+                    "id": "36",
+                    "service": "Лечение перикоронарита"
+                }
+            ],
+            "correctionTitle": "Ортодонтия",
+            "correctionInfoForAboutComponent": "Исправление прикуса у детей и подростков.",
+            "correctionList": [
+                {
+                    "id": "37",
+                    "service": "Установка брекетов"
+                },
+                {
+                    "id": "38",
+                    "service": "Установка металлической брекет-системы Mini Diamond, Orthos Titanium"
+                },
+                {
+                    "id": "39",
+                    "service": "Установка эстетической брекет-системы (сапфировая, керамическая) Carriere SLX"
+                },
+                {
+                    "id": "40",
+                    "service": "Индивидуальная капа"
+                },
+                {
+                    "id": "41",
+                    "service": "Снятие брекет-системы"
+                },
+                {
+                    "id": "42",
+                    "service": "Активация брекет-системы на 1 челюсть"
+                },
+                {
+                    "id": "43",
+                    "service": "Фиксация ретейнера на 1 челюсть"
+                },
+                {
+                    "id": "43",
+                    "service": "Приём (осмотр, консультация) врача-ортодонта повторный (с составлением комплексного плана лечения)"
+                }
+            ],
+            "children'sDentistryTitle": "Детская стоматология",
+            "childrenInfoForAboutComponent": "Бережно лечим детей. Индивидуальный подход к каждому ребёнку",
+            "children'sDentistryList": [
+                {
+                    "id": "45",
+                    "service": "Профессиональная гигиена полости рта с применением лечебно-профилактических средств"
+                },
+                {
+                    "id": "46",
+                    "service": "Герметизация фиссуры постоянного зуба"
+                },
+                {
+                    "id": "47",
+                    "service": "Лечение молочного зуба"
+                },
+                {
+                    "id": "48",
+                    "service": "Удаление молочного зуба"
+                },
+                {
+                    "id": "49",
+                    "service": "Обучение гигиене полости рта и зубов индивидуальное, подбор средств и предметов гигиены полости рта (на детском приёме, с демонстрацией)"
+                },
+                {
+                    "id": "48",
+                    "service": "Глубокое фторирование эмали зуба (аппликации фторосодержащим гелем в области одного зуба)"
+                },
+                {
+                    "id": "48",
+                    "service": "Приём профилактический (осмотр) врача-стоматолога детского"
+                }
+            ],
+            "orthopedicTitle": "Ортопедическая стоматология",
+            "orthopedicInfoForAboutComponent": "Исправление прикуса у детей и подростков.",
+            "orthopedicList": {
+                    "service1": "Безметалловые керамические коронки",
+                    "service2": "Металлокерамические коронки",   
+                    "service3": "Коронки из диоксида циркония",         
+                    "service4": "Съемноё протезирование"
+            },
+            "radiographyTitle": "Рентгенография",
+            "radiographyInfo1": "Рентгенография является основным методом исследования зубов и костей челюстно-лицевой области. В нашей клинике рентгенография проводится при помощи цифрового радиовизиографа, позволяющего за считанные секунды получить рентгеновский снимок в любой проекции не на плёнке,  а на экране компьютера.   В каждом кабинете стоит рециркулятор, новый обеззараживает грязный воздух и выпускает чистый.",
+            "radiographyInfo2": "Цифровая рентгенография позволяет получить высококачественное изображение, а самое главное - значительно снизить лучевую нагрузку на пациента.",
+            "radiographyInfo3": "Кроме того, Ваш снимок будет сохранен в нашей электронной базе данных, что позволяет вернуться к нему в любой момент времени.",
+            "radiographyInfo4": "В каждом кабинете стоит рециркулятор, новый обеззараживает грязный воздух и выпускает чистый.",
+            "aestheticDentistryTitle": "Эстетическая стоматология",
+            "aestheticInfoForAboutComponent": "Гигиена и отбеливание зубов",
+            "aestheticDentistryList": [
+                {
+                    "id": "56",
+                    "service": "Профессиональное химическое отбеливание (Opalescence BOOST, Amazing White)"
+                }
+            ],
+            "aestheticSubtitleVeneer": "Виниры",
+            "aesthetiсVeneerList": [
+                {
+                    "id": "50",
+                    "service": "прямые (кабинетное изготовление)"
+                },
+                {
+                    "id": "50",
+                    "service": "непрямые (изготовление в зуботехнической лаборатории)"
+                }
+            ],
+            "aestheticArtisticRestorationTitle": "Художественные реставрации",
+            "aestheticArtisticRestorationList": [
+                {
+                    "id": "50",
+                    "service": "прямые (кабинетное изготовление)"
+                },
+                {
+                    "id": "50",
+                    "service": "непрямые (изготовление в зуботехнической лаборатории)"
                 }
             ]
+        },
+        "footer": {
+            "schedule": {
+                "firtsRow": "Пн-Пт: 10:00 до 19:00",
+                "secondRow": "Сб: 10:00 до 17:00",
+                "thirdRow": "Вс: Выходной"
+            },
+            "paymentInfo": {
+                "row1": "Принимаем оплату наличным",
+                "row2": "и безналичным расчетом"
+            }
         }
     }
 }

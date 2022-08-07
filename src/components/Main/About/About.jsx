@@ -53,7 +53,7 @@ const About = (props) => {
       md:text-[12px] md:w-5/6
       "
       >
-        {i18next.t("aboutBlock.mainText2")}
+        {i18next.t("aboutBlock.mainTextForComponent")}
       </div>
     </div>
   );

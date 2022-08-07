@@ -6,15 +6,14 @@ import OurServices from "./OurServices/OurServices";
 import Reviews from "./Reviews/Reviews";
 import mainVideo from "../../assets/video/mainVideo.mp4";
 import NavButton from "./CustomTemplates/NavButton/NavButton";
-import i18next from "i18next";
+import { withTranslation } from "react-i18next";
 
-const Main = () => {
-  const text = i18next.t("buttonMooreAboutUs");
+const Main = ({ t }) => {
   return (
     <main>
       <Carousel />
       <About video={mainVideo} />
-      <NavButton path="/about" text={text} />
+      <NavButton path="/about" text={t("buttonMooreAboutUs")} />
       <OurServices />
       <Employees />
       <Reviews />
@@ -22,4 +21,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default withTranslation()(Main);
